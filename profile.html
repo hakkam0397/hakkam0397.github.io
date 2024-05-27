@@ -1,36 +1,51 @@
+<!-- Author: Dhruv Mehta *-->
 <!DOCTYPE html>
 <html>
 
 <head>
     <title>Profile</title>
+    <!--ZURB-->
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <!--ZURB-->
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul class="vertical medium-horizontal menu">
-                <li><a href="index.html"><i class="fi-list"></i> <span>Home</span></a></li>
-                <li><a href="myCare.html"><i class="fi-list"></i> <span>MyCare</span></a></li>
-                <li><a href="consultation.html"><i class="fi-list"></i> <span>Consult</span></a></li>
-                <li><a href="profile.html"><i class="fi-list"></i> <span>Profile</span></a></li>
-            </ul>
+       <!--Nav Bar-->
+       <nav>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="myCare.html">MyCare</a>
+            <a href="consultation.html">Consult</a>
+            <a href="profile.html">Profile</a>
+          </div>
         </nav>
+    <!--Nav Bar-->
         
         <h1 id="top-heading">Profile</h1>
 
-        <p1><img id="logo" src="Resources/Images/dp.jpg" alt="display picture" width="64" height="64"><br>John Doe <br>+1 (675) 689-7654</p1>
+        <div class="card" style="width: 300px;">
+            <div class="callout primary">
+                <p1><img id="logo" src="Resources/Images/dp.jpg" alt="display picture" width="64" height="64"><br>John Doe <br>+1 (675) 689-7654</p1>
+                <a href="editprofile.html" class="button radius bordered shadow primary">Edit</a>
+            </div>
+        </div>
 
-        <button type="button">Edit<a href=""></a></button>
+            <div class="card" style="width: 300px;">
+                <div class="callout primary">
+                    <nav>
+                        <ul>
+                            <li><a href="">Help</a></li>
+                            <li><a href="privacy.html">Policy</a></li>
+                            <li><a href="">Support</a></li>
+                            <li><a href="signup.html">Logout</a></li>
+                        </ul>
 
-        <nav>
-            <ul>
-                <li><a href="">Help</a></li>
-                <li><a href="privacy.html">Policy</a></li>
-                <li><a href="">Support</a></li>
-                <li><a href="signup.html">Logout</a></li>
-            </ul>
+                        <p1>App version 1.0</p1>
+                </div>
+            </div>
 
-            <p1>App version 1.0</p1>
         </nav>
     </header>
 </body>
