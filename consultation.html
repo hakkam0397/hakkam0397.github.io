@@ -1,21 +1,123 @@
+<!-- Author: Samruddhi Deolekar *-->
+
 <!DOCTYPE html>
 <html>
     <Head>
         <title>Consultation & Records</title>
+         <!-- ZURB FOUNDATION -->
+            <link rel="stylesheet" href="css/foundation.css">
+            <link rel="stylesheet" href="css/app.css">
+            <!-- <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'> -->
+         <!-- ZURB FOUNDATION -->
     </Head>
     <body>
+    <header>
         <!-- Navigation Bar-->
         <nav>
-            <div class="btn-group">
-                <a href="index.html" class="button">Home</a>
-                <li><a href="myCare.html">MyCare</a></li>
-                <li><a href="consultation.html">Consult</a></li>
-                <li><a href="profile.html">Profile</a></li>
+            <ul class="horizontal menu">
+                <li><a href="index.html"><i class="fi-list"></i> <span>Home</span></a></li>
+                <li><a href="myCare.html"><i class="fi-list"></i> <span>MyCare</span></a></li>
+                <li><a href="consultation.html"><i class="fi-list"></i> <span>Consult</span></a></li>
+                <li><a href="profile.html"><i class="fi-list"></i> <span>Profile</span></a></li>
+                <br>
+                <br>
+                <br>
             </ul>
         </nav>
-        <!-- Navigation Bar-->
     </header>
-    <br>
-    <br>
+        <!-- Navigation Bar-->
+
+        <!-- in-page nav tabs-->
+        <div class="row">
+            <div class="columns">
+          <div class="row">
+            <div class="columns">
+              <ul class="tabs" data-tabs id="consultation">
+                <li class="tabs-title is-active"><a href="#myappointments" aria-selected="true">My Appointments</a></li>
+                <li class="tabs-title"><a href="#bookconsultation">Book Consultation</a></li>
+                <li class="tabs-title"><a href="#myreports">My Reports</a></li>
+              </ul>
+        <!-- in-page nav tabs-->
+
+        <!-- in-page nav tabs content for my appointments-->
+        <br>
+        <div class="tabs-content" data-tabs-content="consultation-tabs">
+            <div class="tabs-panel is-active" id="myappointments">
+                <h1>Upcoming appointments</h1>
+                <h2>Dr.Schrutte</h2>
+                <button class="hollow button small secondary" href="#">In-person</button>
+                <p>ACCQ Sleep Labs
+                    <br>
+                     05/21/2024
+                     4:30 pm
+                     Confirmed
+                     <br>
+                     850 Bailey Drive, Waterloo, ON
+                </p>
+                 <button class="hollow button" href="#">Cancel</button>
+                 <button class="button medium-down-expanded" href="#">Reschedule</button>
+            </div>       
+        <div class="tabs-content" data-tabs-content="consultation-tabs">
+            <div class="tabs-panel is-active" id="myappointments">  
+            <h1>Past appointments</h1>  
+            <h2>Dr.Kapoor</h2>
+            <button class="hollow button small secondary" href="#">Online</button>
+            <p>PEAK Sleep Clinic
+                <br>
+                  05/10/2024
+                  10:30 am
+                  Confirmed
+                <br>
+                  850 Bailey Drive, Waterloo, ON
+            </p>
+                <button class="hollow button" href="#">Cancel</button>
+                <button class="button medium-down-expanded" href="#">Reschedule</button>
+            </div>
+            <!-- in-page nav tabs content for my appointments-->
+
+
+            <!-- in-page nav tabs content for book consultation-->
+
+            <div class="tabs-panel is-active" id="bookconsultation">
+                <div class="top-bar">
+                    <div class="top-bar-left">
+                      <ul class="dropdown menu" data-dropdown-menu>
+                        <li>
+                          <a href="#Filter">Filter</a>
+                          <ul class="menu vertical">
+                            <li><a href="#inperson">In-person</a></li>
+                            <li><a href="#online">Online</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="top-bar-right">
+                      <ul class="menu">
+                        <li><input type="search" placeholder="Search"></li>
+                        <li><button type="button" class="button">Search</button></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <br>
+                <img class="drimage" src="Resources/Images/dp-s.jpg">
+                <h2>Dr. Alan Shoff</h2>
+                <button class="hollow button small secondary" href="#">In-person</button>
+                <p>Sleep Medicine, 10 yrs exp.
+                    <br>
+                    160 Jubilee St, Waterloo, ON, CA
+                     <br>
+                     Available: Online, In-person
+                     Languages spoken: English, French
+                </p>
+                 <button class="hollow button" href="#">View profile</button>
+                 <button class="button medium-down-expanded" href="#">Book a consultation</button>
+            </div> 
+            <!-- in-page nav tabs content for book consultation-->
+            
+            <!-- in-page nav tabs content for my reports-->
+        
+        
+        </div>
+    
     </body>
 </html>
