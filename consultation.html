@@ -2,20 +2,35 @@
 <html>
     <Head>
         <title>Consultation & Records</title>
+         <!-- ZURB FOUNDATION -->
+            <link rel="stylesheet" href="css/foundation.css">
+            <link rel="stylesheet" href="css/app.css">
+            <!-- <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'> -->
+         <!-- ZURB FOUNDATION -->
     </Head>
     <body>
+    <header>
         <!-- Navigation Bar-->
         <nav>
-            <div class="btn-group">
-                <a href="index.html" class="button">Home</a>
-                <li><a href="myCare.html">MyCare</a></li>
-                <li><a href="consultation.html">Consult</a></li>
-                <li><a href="profile.html">Profile</a></li>
+            <ul class="horizontal menu">
+                <li><a href="index.html"><i class="fi-list"></i> <span>Home</span></a></li>
+                <li><a href="myCare.html"><i class="fi-list"></i> <span>MyCare</span></a></li>
+                <li><a href="consultation.html"><i class="fi-list"></i> <span>Consult</span></a></li>
+                <li><a href="profile.html"><i class="fi-list"></i> <span>Profile</span></a></li>
+                <br>
+                <br>
+                <br>
             </ul>
         </nav>
         <!-- Navigation Bar-->
-    </header>
-    <br>
-    <br>
+
+        <!-- in-page nav tabs-->
+        <ul class="tabs" data-responsive-accordion-tabs="tabs large-accordion large-tabs" id="example-tabs">
+            <li class="tabs-title is-active"><a href="#myappointments" aria-selected="true">My Appointments</a></li>
+            <li class="tabs-title"><a href="#bookconsultation">Book Consultation</a></li>
+            <li class="tabs-title"><a href="#myreports">My Reports</a></li>
+          </ul>
+   
+    
     </body>
 </html>
