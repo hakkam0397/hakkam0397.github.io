@@ -4,42 +4,71 @@
 
 <head>
     <title>Verification</title>
-    <!--ZURB-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Google Fonts-->
+
+    <!-- Flat Icons-->
+    <link href="Resources/icons/css/uicons-regular-rounded.css" rel="stylesheet">
+    <!-- Flat Icons-->
+
+    <!-- ZURB FOUNDATION -->
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-    <!--ZURB-->
-    </head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet'
+        type='text/css'>
+    <!-- ZURB FOUNDATION -->
+</head>
 
 <body>
     <header>
-        <!--Back-->
-       <nav>
-        <div class="topnav">
-            <a class="active" href="signup.html">« Back to signup</a>
-          </div>
-        </nav>
-    <!--Back-->
+        <!-- Back-->
+          <nav>
+              <ul class="horizontal menu">
+                  <li><a href=""><img src="Resources/Images/SnoozeCare_Logo_trnprnt.png" alt="Logo" style="height: 24px; width: auto;"></a></li>
+                  <li><a href="otp.html"><i class="fi-rr-arrow-left" style="height: 24px; width: auto;"></i> <span>Back</span></a></li>
+              </ul>
+          </nav>
+          <!-- Back-->
+      </header>
 
-    <h3 id="top-heading" style="width: 300px">What time do you usually go to bed?</h3>
+      <div class="page-wrapper"> <!-- Page wrapper to add padding -->
 
-        <progress class="success" style="width: 300px" max="100" value="65"></progress>
-    
-        <div class="card" style="width: 300px;">
-            <div class="callout primary">
-                <fieldset id="question1">    
-                    <label><input type="radio" name="q1">Before 9 PM</label>    
-                    <label><input type="radio" name="q1">9 PM to 11 PM</label>  
-                    <label><input type="radio" name="q1">11 PM to 1 AM</label>
-                    <label><input type="radio" name="q1">After 1 AM</label>
-                </fieldset>
+        <h1 id="top-heading" style="width: 300px;">What time do you usually go to bed?</h1>
+
+         <!-- Options -->
+         <div class="row">
+            <div class="radius bordered shadow card">
+                <div class="card">
+                    <div class="card-section">
+                        <div class="row"> 
+                            <progress class="success" style="width: 300px" max="100" value="65"></progress>
+                            <fieldset id="question1">    
+                                <label><input type="radio" name="q1">Before 9 PM</label>    
+                                <label><input type="radio" name="q1">9 PM to 11 PM</label>  
+                                <label><input type="radio" name="q1">11 PM to 1 AM</label>
+                                <label><input type="radio" name="q1">After 1 AM</label>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- Options -->
 
         </form>
 
         <p><a href="index.html" class="primary button" style="width: 300px">Continue »</a></p>
 
-    </header>
 </body>
 
 </html>

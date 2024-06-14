@@ -3,27 +3,57 @@
 <html>
 
 <head>
-    <title>Signup</title>
-    <!--ZURB-->
+    <title>SnoozeCare</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Google Fonts-->
+
+    <!-- Flat Icons-->
+    <link href="Resources/icons/css/uicons-regular-rounded.css" rel="stylesheet">
+    <!-- Flat Icons-->
+
+    <!-- ZURB FOUNDATION -->
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-    <!--ZURB-->
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet'
+        type='text/css'>
+    <!-- ZURB FOUNDATION -->
 </head>
 
 <body>
     <header>
+        <div class="page-wrapper"> <!-- Page wrapper to add padding -->
         <h1 id="top-heading">Let’s get started!</h1>
         <p1>Let’s create your account</p1>
-            <p><a href="https://www.google.com/" class="hollow button" style="width: 300px">Sign in with Google »</a></p>
-            <p><a href="https://www.apple.com/" class="hollow button" style="width: 300px">Sign in with Apple »</a></p>
-            <p><a href="https://www.facebook.com/" class="hollow button" style="width: 300px">Sign in with Facebook »</a></p>
 
-            <p1>-- or --</p1>
+        <p><a href="https://www.google.com/" class="hollow button" style="width: 300px">Sign in with Google »</a><br/>
+            <a href="https://www.apple.com/" class="hollow button" style="width: 300px">Sign in with Apple »</a></br>
+            <a href="https://www.facebook.com/" class="hollow button" style="width: 300px">Sign in with Facebook »</a></br>
+
+            <p class="text-center" style="width: 300px">-- or --</a></p>
 
             <p><a href="verification.html" class="primary button" style="width: 300px">Sign in with Phone »</a></p>
 
-            <p1>By signing in, you agree to our <br><a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a></p1>
+            <p class="text-center" style="width: 300px">By signing in, you agree to our <br><a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a></p>
+        </div>
     </header>
+
+    <!-- ZURB FOUNDATION JS -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <!-- ZURB FOUNDATION JS-->
+
 </body>
 
 </html>
