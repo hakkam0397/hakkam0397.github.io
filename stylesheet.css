@@ -1,0 +1,215 @@
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    color: white;
+    background: rgb(87, 65, 136);
+    background: linear-gradient(135deg, rgba(87, 65, 136, 1) 0%, rgba(70, 49, 116, 1) 35%, rgba(34, 16, 75, 1) 100%);
+}
+
+.page-wrapper {
+    margin: 0 20px;
+    /* Adjust the margin as per your design */
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.card {
+    border-radius: 8px;
+    border-color: #22104b7d;
+    background-color: #22104b7d;
+    color: white;
+    margin: 0 auto;
+    float: none;
+    display: flex;
+    width: 100%;
+
+}
+
+nav {
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    width: 100%
+}
+
+.horizontal.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+}
+
+.horizontal.menu li {
+    display: inline;
+}
+
+.horizontal.menu a {
+    text-decoration: none;
+    color: #22104b;
+    /* Menu button color */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+}
+
+.horizontal.menu a:hover {
+    background-color: #22104b;
+    color: white;
+    /* Change to a visible color on hover */
+    /
+}
+
+.horizontal.menu a:hover i {
+    background-color: #22104b;
+    color: white;
+    /* Change to a visible color on hover */
+}
+
+.horizontal.menu a span {
+    margin-left: 5px;
+}
+
+.horizontal.menu a i {
+    color: #22104b;
+    /* Icon color */
+}
+
+ul.horizontal.menu li:first-child {
+    background-color: white;
+    color: white;
+}
+
+ul.horizontal.menu li:first-child:hover a {
+    color: white;
+    background-color: white;
+}
+
+/* .card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 16px;
+    width: 500px;
+    margin: 16px;
+} */
+
+#appointmentImage {
+    object-fit: fill;
+    width: fit-content;
+    height: 200;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: #22104b;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #22104b;
+    color: white;
+}
+
+.button:active {
+    background-color: white;
+    color: #22104b;
+}
+
+/* Roboto FONT CSS */
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
