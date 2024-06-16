@@ -3,7 +3,7 @@ body {
     margin: 0 auto;
     color: white;
     background: rgb(87, 65, 136);
-    background: linear-gradient(135deg, rgba(87, 65, 136, 1) 0%, rgba(70, 49, 116, 1) 35%, rgba(34, 16, 75, 1) 100%);
+    background: linear-gradient(135deg, #574188 0%, #463174 35%, #22104b 100%);
 }
 
 .page-wrapper {
@@ -131,7 +131,7 @@ ul.horizontal.menu li:first-child:hover a {
 }
 
 .button:hover {
-    background-color: #22104b;
+    background-color: #26C485;
     color: white;
 }
 
