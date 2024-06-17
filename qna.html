@@ -52,14 +52,18 @@
             <div class="radius bordered shadow card">
                 <div class="card">
                     <div class="card-section">
-                        <div class="row">
-                            <progress class="success" style="width: 300px" max="100" value="65"></progress>
-                            <fieldset id="question1">
-                                <label><input type="radio" name="q1">Before 9 PM</label>
-                                <label><input type="radio" name="q1">9 PM to 11 PM</label>
-                                <label><input type="radio" name="q1">11 PM to 1 AM</label>
-                                <label><input type="radio" name="q1">After 1 AM</label>
-                            </fieldset>
+                        <div class="grid-x grid-margin-x">
+                            <div class="cell small-6">
+                                <div class="row">
+                                    <progress class="success" style="width: 300px" max="100" value="65"></progress>
+                                    <fieldset id="question1">
+                                        <label><input type="radio" name="q1">Before 9 PM</label>
+                                        <label><input type="radio" name="q1">9 PM to 11 PM</label>
+                                        <label><input type="radio" name="q1">11 PM to 1 AM</label>
+                                        <label><input type="radio" name="q1">After 1 AM</label>
+                                    </fieldset>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -69,7 +73,11 @@
 
         </form>
 
-        <p><a href="index.html" class="primary button" style="width: 300px">Continue »</a></p>
+        <div class="grid-x grid-margin-x">
+            <div class="cell small-6">
+                <p><a href="index.html" class="primary button" style="width: 300px">Continue »</a></p>
+            </div>
+        </div>
 
 </body>
 

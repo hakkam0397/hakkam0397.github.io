@@ -23,7 +23,7 @@
     <!-- ZURB FOUNDATION -->
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="verification.css">
     <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet'
         type='text/css'>
     <!-- ZURB FOUNDATION -->
@@ -31,28 +31,36 @@
 
 <body>
     <header>
-      <!-- Back-->
+        <!-- Back-->
         <nav>
             <ul class="horizontal menu">
-                <li><a href=""><img src="Resources/Images/SnoozeCare_Logo_trnprnt.png" alt="Logo" style="height: 24px; width: auto;"></a></li>
-                <li><a href="signup.html"><i class="fi-rr-arrow-left" style="height: 24px; width: auto;"></i> <span>Back</span></a></li>
+                <li><a href=""><img src="Resources/Images/SnoozeCare_Logo_trnprnt.png" alt="Logo"
+                            style="height: 24px; width: auto;"></a></li>
+                <li><a href="signup.html"><i class="fi-rr-arrow-left" style="height: 24px; width: auto;"></i>
+                        <span>Back</span></a></li>
             </ul>
         </nav>
         <!-- Back-->
     </header>
 
-    <div class="page-wrapper"> <!-- Page wrapper to add padding -->
-        <h1 id="top-heading" style="width: 300px;">Provide your mobile number</h1>
-        <p1 style="width: 300px;">You will get a OTP on your phone to confirm your identity</p1>
+    <div class="grid-x grid-margin-x">
+        <div class="cell small-6">
+            <div class="page-wrapper"> <!-- Page wrapper to add padding -->
+                <h1 id="top-heading">Provide your mobile number</h1>
+                <p1>You will get a OTP on your phone to confirm your identity</p1>
 
-        <div class="row">
-            <div class="six columns" style="width: 300px;">
-            <form>
-              <label>Phone number</label>
-              <input type="text" placeholder="Phone number" />
+                <div class="row">
+                    <div class="six columns">
+                        <form>
+                            <label>Phone number</label>
+                            <input type="text" placeholder="Phone number" />
 
-        <p><a href="otp.html" class="primary button" style="width: 300px">Continue »</a></p>
-
+                            <p><a href="otp.html" class="button">Continue »</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

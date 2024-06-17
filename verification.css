@@ -19,6 +19,8 @@ h1 {
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
+    padding-top: 12px;
+    width: 300px;
 }
 
 h2 {
@@ -32,6 +34,10 @@ h3 {
 
 p {
     font-size: 14px;
+}
+
+p {
+    width: 300px;
 }
 
 /* Card */
@@ -113,9 +119,9 @@ ul.horizontal.menu li:first-child:hover a {
 
 /* Primary Button */
 .button {
-    background-color: #ED1D24;
+    background-color: white;
     border: none;
-    color: white;
+    color: #22104b;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -123,10 +129,11 @@ ul.horizontal.menu li:first-child:hover a {
     font-size: 16px;
     margin: 4px 4px;
     border-radius: 8px;
+    width: 300px;
 }
 
 .button:hover {
-    background-color: #ED1D24;
+    background-color: #22104b;
     color: white;
 }
 
@@ -135,6 +142,10 @@ ul.horizontal.menu li:first-child:hover a {
     color: #22104b;
 }
 /* Primary Button */
+
+.text-center {
+    width: 300px;
+}
 
 a {
     color: white;
@@ -146,26 +157,27 @@ p {
 }
 /* Top Padding */
 
-p1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    opacity: 64%;
-}
-
-/* Edit Button */
-.small.tertiary.button {
-    background-color: white;
-    color: #222222;
+/* Outline Button */
+.hollow.button {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    width: 300px;
     font-size: 16px;
 }
-/* Edit Button */
 
-/* Settings Option */
-ul {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    text-decoration: none;
+.hollow.button:hover {
+    background-color: #362662;
+    border-color: transparent;
     color: white;
 }
-/* Settings Option */
+/* Outline Button */
+
+.six.columns {
+    width: 300px;
+    border-radius: 8px;
+}
+
+form {
+    border-radius: 8px;
+}
