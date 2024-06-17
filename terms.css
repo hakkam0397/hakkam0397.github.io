@@ -37,19 +37,6 @@ p {
     width: 300px;
 }
 
-/* Card */
-.card {
-    border-radius: 8px;
-    border-color: #22104b7d;
-    background-color: #22104b7d;
-    color: white;
-    margin: 0 auto;
-    float: none;
-    display: flex;
-    width: 100%;
-}
-/* Card */
-
 /* Navigation */
 nav {
     background-color: white;
@@ -114,67 +101,8 @@ ul.horizontal.menu li:first-child:hover a {
 }
 /* Navigation */
 
-/* Primary Button */
-.button {
-    background-color: white;
-    border: none;
-    color: #22104b;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 4px;
-    border-radius: 8px;
-    width: 300px;
-}
-
-.button:hover {
-    background-color: #22104b;
-    color: white;
-}
-
-.button:active {
-    background-color: white;
-    color: #22104b;
-}
-/* Primary Button */
-
-.text-center {
-    width: 300px;
-}
-
-a {
-    color: white;
-}
-
 /* Top Padding */
 p {
     padding-top: 8px;
 }
 /* Top Padding */
-
-/* Outline Button */
-.hollow.button {
-    border-color: white;
-    background-color: transparent;
-    color: white;
-    width: 300px;
-    font-size: 16px;
-}
-
-.hollow.button:hover {
-    background-color: #362662;
-    border-color: transparent;
-    color: white;
-}
-/* Outline Button */
-
-progress {
-    width: 300px;
-}
-
-label {
-    color: white;
-    padding-top: 8px;
-}

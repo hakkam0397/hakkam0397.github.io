@@ -15,7 +15,7 @@ body {
 /* Adding margin on the left side */
 
 /* Headings */
-h1 {
+#top-heading {
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -34,19 +34,6 @@ h3 {
 p {
     font-size: 14px;
 }
-
-/* Card */
-.card {
-    border-radius: 8px;
-    border-color: #22104b7d;
-    background-color: #22104b7d;
-    color: white;
-    margin: 0 auto;
-    float: none;
-    display: flex;
-    width: 100%;
-}
-/* Card */
 
 /* Navigation */
 nav {

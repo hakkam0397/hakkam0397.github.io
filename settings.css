@@ -15,10 +15,11 @@ body {
 /* Adding margin on the left side */
 
 /* Headings */
-h1 {
+#top-heading {
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
+    padding-top: 12px;
 }
 
 h2 {
@@ -37,7 +38,7 @@ p {
 /* Card */
 .card {
     border-radius: 8px;
-    border-color: #22104b7d;
+    border-color: transparent;
     background-color: #22104b7d;
     color: white;
     margin: 0 auto;
