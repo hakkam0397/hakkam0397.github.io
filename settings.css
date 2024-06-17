@@ -1,54 +1,170 @@
 /* Author: Dhruv Mehta */
-#top-heading{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    color: white;
+    background: rgb(87, 65, 136);
+    background: linear-gradient(135deg, rgba(87, 65, 136, 1) 0%, rgba(70, 49, 116, 1) 35%, rgba(34, 16, 75, 1) 100%);
 }
 
+/* Adding margin on the left side */
+.page-wrapper {
+    margin: 0 20px;
+}
+/* Adding margin on the left side */
+
+/* Headings */
 h1 {
+    font-size: 24px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal;
+}
+
+h2 {
+    font-size: 18px;
 }
 
 h3 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    font-size: 14px;
+}
+/* Headings */
+
+p {
+    font-size: 14px;
 }
 
-a{
+/* Card */
+.card {
+    border-radius: 8px;
+    border-color: #22104b7d;
+    background-color: #22104b7d;
+    color: white;
+    margin: 0 auto;
+    float: none;
+    display: flex;
+    width: 100%;
+}
+/* Card */
+
+/* Navigation */
+nav {
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    width: 100%
+}
+
+.horizontal.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+}
+
+.horizontal.menu li {
+    display: inline;
+}
+
+.horizontal.menu a {
+    text-decoration: none;
+    color: #22104b;
+    /* Menu button color */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+}
+
+.horizontal.menu a:hover {
+    background-color: #22104b;
+    color: white;
+    /* Change to a visible color on hover */
+    /
+}
+
+.horizontal.menu a:hover i {
+    background-color: #22104b;
+    color: white;
+    /* Change to a visible color on hover */
+}
+
+.horizontal.menu a span {
+    margin-left: 5px;
+}
+
+.horizontal.menu a i {
+    color: #22104b;
+    /* Icon color */
+}
+
+ul.horizontal.menu li:first-child {
+    background-color: white;
     color: white;
 }
 
-p{
+ul.horizontal.menu li:first-child:hover a {
+    color: white;
+    background-color: white;
+}
+/* Navigation */
+
+/* Primary Button */
+.button {
+    background-color: #ED1D24;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #ED1D24;
+    color: white;
+}
+
+.button:active {
+    background-color: white;
+    color: #22104b;
+}
+/* Primary Button */
+
+a {
+    color: white;
+}
+
+/* Top Padding */
+p {
     padding-top: 8px;
 }
+/* Top Padding */
 
 p1 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
     opacity: 64%;
 }
 
-button p {
-    color: #ED1D24;
-  }
-
-h1 {
-    padding-top: 12px;
+/* Edit Button */
+.small.tertiary.button {
+    background-color: white;
+    color: #222222;
+    font-size: 16px;
 }
-    
-#small alert button {
-    text-decoration: white;
-}
+/* Edit Button */
 
+/* Settings Option */
 ul {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
     font-size: 16px;
     text-decoration: none;
     color: white;
-  }
+}
+/* Settings Option */

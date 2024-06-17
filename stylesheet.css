@@ -3,16 +3,31 @@ body {
     margin: 0 auto;
     color: white;
     background: rgb(87, 65, 136);
-    background: linear-gradient(135deg, rgba(87, 65, 136, 1) 0%, rgba(70, 49, 116, 1) 35%, rgba(34, 16, 75, 1) 100%);
+    /* background: linear-gradient(135deg, #7f6baa 0%, #463174 35%, #22104b 100%); */
 }
+
 
 .page-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0 20px;
-    /* Adjust the margin as per your design */
 }
 
-h1 {
-    font-size: 24px;
+#statsRow {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+    margin: 0 20px;
+    flex-wrap: nowrap;
+}
+
+
+/* h1 {
+    font-size: 
 }
 
 h2 {
@@ -25,17 +40,25 @@ h3 {
 
 p {
     font-size: 14px;
-}
+} */
 
 .card {
     border-radius: 8px;
     border-color: #22104b7d;
     background-color: #22104b7d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid #ccc; */
     color: white;
     margin: 0 auto;
     float: none;
     display: flex;
     width: 100%;
+    text-align: left;
+    padding: 20px;
+}
+
+.card-section {
+    padding: 20px;
 }
 
 nav {
@@ -100,17 +123,6 @@ ul.horizontal.menu li:first-child:hover a {
     background-color: white;
 }
 
-/* .card {
-    display: flex;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    padding: 16px;
-    width: 500px;
-    margin: 16px;
-} */
-
 #appointmentImage {
     object-fit: fill;
     width: fit-content;
@@ -128,10 +140,11 @@ ul.horizontal.menu li:first-child:hover a {
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 8px;
+    font-weight: bold;
 }
 
 .button:hover {
-    background-color: #22104b;
+    background-color: #26C485;
     color: white;
 }
 
@@ -212,4 +225,3 @@ ul.horizontal.menu li:first-child:hover a {
     font-weight: 900;
     font-style: italic;
 }
-
