@@ -1,15 +1,19 @@
 /* Author: Dhruv Mehta */
-
 body {
     max-width: 100%;
     margin: 0 auto;
     color: white;
     background: rgb(87, 65, 136);
-    background: linear-gradient(135deg, rgba(87, 65, 136, 1) 0%, rgba(70, 49, 116, 1) 35%, rgba(34, 16, 75, 1) 100%);
+    /* background: linear-gradient(135deg, #7f6baa 0%, #463174 35%, #22104b 100%); */
 }
 
 /* Adding margin on the left side */
 .page-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0 20px;
 }
 /* Adding margin on the left side */
@@ -38,14 +42,14 @@ p {
 }
 
 /* Navigation */
-nav {
+/* nav {
     background-color: white;
-    padding: 10px;
+     padding: 10px; 
     border-bottom: 1px solid #ccc;
-    width: 100%
-}
+    width: 100% 
+} */
 
-.horizontal.menu {
+#responsive-menu {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -53,11 +57,11 @@ nav {
     justify-content: left;
 }
 
-.horizontal.menu li {
+#responsive-menu li {
     display: inline;
 }
 
-.horizontal.menu a {
+#responsive-menu a {
     text-decoration: none;
     color: #22104b;
     /* Menu button color */
@@ -65,39 +69,45 @@ nav {
     display: flex;
     align-items: center;
     gap: 8px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
-.horizontal.menu a:hover {
+#responsive-menu a:hover {
     background-color: #22104b;
     color: white;
     /* Change to a visible color on hover */
     /
 }
 
-.horizontal.menu a:hover i {
+#responsive-menu a:hover i {
     background-color: #22104b;
     color: white;
     /* Change to a visible color on hover */
 }
 
-.horizontal.menu a span {
+#responsive-menu a span {
     margin-left: 5px;
 }
 
-.horizontal.menu a i {
+#responsive-menu a i {
     color: #22104b;
     /* Icon color */
 }
 
-ul.horizontal.menu li:first-child {
+#responsive-menu li:first-child {
     background-color: white;
     color: white;
 }
 
-ul.horizontal.menu li:first-child:hover a {
+#responsive-menu li:first-child:hover a {
     color: white;
     background-color: white;
+}
+
+#appointmentImage {
+    object-fit: fill;
+    width: fit-content;
+    height: 200;
 }
 /* Navigation */
 
