@@ -1,204 +1,156 @@
-Here is the CSS code to match the provided layout and style:
-
-```css
 body {
     max-width: 100%;
     margin: 0 auto;
     color: white;
     background: rgb(87, 65, 136);
     /* background: linear-gradient(135deg, #7f6baa 0%, #463174 35%, #22104b 100%); */
-}
-
-.page-wrapper {
+ }
+ 
+ 
+ .page-wrapper {
     display: flex;
     justify-content: left;
     align-items: left;
     flex-direction: column;
     min-height: 100vh;
     margin: 0 20px;
-}
-
-#statsRow {
+ }
+ 
+ 
+ #statsRow {
     display: flex;
     justify-content: center;
+    /* align-items: center; */
     flex-direction: row;
     margin: 0 20px;
     flex-wrap: nowrap;
-}
-
-.card {
-    border-radius: 8px;
-    border-color: #22104b7d;
-    background-color: #22104b7d;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    color: white;
-    margin: 0 auto;
-    display: flex;
-    width: 100%;
-    text-align: left;
-    padding: 20px;
-}
-
-.card-section {
-    padding: 20px;
-}
-
-nav {
+ }
+ 
+ 
+ 
+ 
+ /* h1 {
+    font-size:
+ }
+ 
+ 
+ h2 {
+    font-size: 18px;
+ }
+ 
+ 
+ h3 {
+    font-size: 14px;
+ }
+ 
+ 
+ p {
+    font-size: 14px;
+ } */
+ 
+ 
+ .horizontal menu {
     background-color: white;
     padding: 10px;
     border-bottom: 1px solid #ccc;
-    width: 100%;
-}
-
-.horizontal.menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: left;
-}
-
-.horizontal.menu li {
-    display: inline;
-}
-
-.horizontal.menu a {
-    text-decoration: none;
-    color: #22104b;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    border-radius: 5px;
-}
-
-.horizontal.menu a:hover {
-    background-color: #22104b;
+    width: 100%
+ } 
+ 
+ 
+ .button medium-down-expanded {
+    background-color: #26C485;
     color: white;
-}
-
-.horizontal.menu a:hover i {
-    background-color: #22104b;
-    color: white;
-}
-
-.horizontal.menu a span {
-    margin-left: 5px;
-}
-
-.horizontal.menu a i {
-    color: #22104b;
-}
-
-ul.horizontal.menu li:first-child {
+ }
+ 
+ 
+ .button:active {
     background-color: white;
-    color: white;
-}
-
-ul.horizontal.menu li:first-child:hover a {
-    color: white;
-}
-
-.tabs {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    list-style: none;
-}
-
-.tabs-title {
-    margin: 0 10px;
-}
-
-.tabs-title a {
-    display: block;
-    padding: 10px 20px;
     color: #22104b;
-    background: white;
-    border-radius: 5px;
-    text-decoration: none;
-}
+ }
+ 
+ 
 
-.tabs-title a:hover,
-.tabs-title.is-active a {
-    background: #22104b;
-    color: white;
-}
-
-.tabs-content {
-    margin: 20px 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: white;
-}
-
-button {
-    background: #22104b;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #463174;
-}
-
-.hollow.button {
-    background: transparent;
-    border: 1px solid #22104b;
-}
-
-.hollow.button:hover {
-    background: #22104b;
-    color: white;
-}
-
-.grid-x {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.cell {
-    flex: 1;
-    padding: 10px;
-}
-
-.top-bar {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
-}
-
-.media-object {
-    display: flex;
-    align-items: center;
-}
-
-.media-object-section {
-    margin-right: 10px;
-}
-
-.thumbnail img {
-    border-radius: 50%;
-}
-
-@media only screen and (max-width: 768px) {
-    .horizontal.menu {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .horizontal.menu li {
-        display: block;
-        width: 100%;
-    }
-    .horizontal.menu a {
-        width: 100%;
-        text-align: left;
-    }
-}
-```
-
-This CSS code maintains consistency with the design and layout provided, ensuring that both pages in the SnoozeCare website have a unified look and feel.
+ .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+ }
+ 
+ 
+ .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+ }
+ 
+ 
+ .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+ 
+ 
+ .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+ }
+ 
+ 
+ .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+ }
+ 
+ 
+ .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+ }
+ 
+ 
+ .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+ }
+ 
+ 
+ .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+ }
+ 
+ 
+ .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+ }
+ 
+ 
+ .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+ }
+ 
+ 
+ .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+ }
+ 
+ 
+ .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+ }
+ 
+ 
