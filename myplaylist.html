@@ -1,171 +1,220 @@
+<!-- Author: Baolong Zan *-->
 <!DOCTYPE html>
+
 <html>
     <head>
         <title>SnoozeCare</title>
         <meta charset="utf-8">
-        <!-- <link href="css/myplaylist.css" rel="stylesheet" type="text/css"> -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="fur shaving, wool, farm">
+        <!-- Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <!-- Google Fonts-->
+
+        <!-- Flat Icons-->
+        <link href="Resources/icons/css/uicons-regular-rounded.css" rel="stylesheet">
+        <!-- Flat Icons-->
+
         <!-- ZURB FOUNDATION -->
         <link rel="stylesheet" href="css/foundation.css">
         <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="myCare.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet'
+            type='text/css'>
+        <!-- ZURB FOUNDATION -->
     </head>
     <body>
-         
          <div class="grid-y medium-grid-frame">
             <!-- Navigation Bar-->
-            <h1 id="top-heading">Welcome to SnoozeCare!</h1>
-            <div class="cell shrink header medium-cell-block-container">
-                <nav>
-                    <ul class="horizontal menu">
-                        <li><a href="index.html"><i class="fi-list"></i> <span>Home</span></a></li>
-                        <li><a href="myCare.html"><i class="fi-list"></i> <span>MyCare</span></a></li>
-                        <li><a href="consultation.html"><i class="fi-list"></i> <span>Consult</span></a></li>
-                        <li><a href="profile.html"><i class="fi-list"></i> <span>Profile</span></a></li>
-                    </ul>
-                </nav>
-            </div>
-
+            <nav>
+                <ul class="horizontal menu">
+                    <li><a href="index.html"><img src="Resources/Images/SnoozeCare_Logo_trnprnt.png" alt="Logo" style="height: 24px; width: auto;"></a></li>
+                    <li><a href="index.html"><i class="fi-rr-dashboard-panel"></i> <span>Dashboard</span></a></li>
+                    <li><a href="myCare.html"><i class="fi-rr-heart-partner-handshake"></i> <span>MyCare</span></a></li>
+                    <li><a href="consultation.html"><i class="fi-rr-doctor"></i> <span>Consult</span></a></li>
+                    <li><a href="settings.html"><i class="fi-rr-settings-sliders"></i> <span>Settings</span></a></li>
+                </ul>
+            </nav>
+            <!-- Navigation Bar-->
+            <!-- Main concent-->
             <section class="cell medium-auto medium-cell-block-container">
-
-                <section class="grid-x grid-padding-x">
+                <section class="grid-x grid-padding-x content">
                     <!-- Left bar -->
-                    <section class="cell grid-x medium-3 medium-cell-block-y">
-                        <div class="cell medium-3"></div>
-                        <div class="cell medium-6">
+                    <section class="cell grid-x medium-2 medium-cell-block-y">
+                        <div class="cell medium-10">
                             <p><img src="Resources/Images/dp-s.jpg"></p>
-                            <p>UserName</p>
-                            <!-- Left menu -->
-                            <ul class="horizontal menu">
+                            <h1>UserName</h1>
+                            <!-- Left nav -->
+                            <ul class="horizontal leftnav">
                                 <li><a href="personaldata.html"> <span>Personal Data</span></a></li>
                                 <li><a href="myplaylist.html"> <span>MyPlayList</span></a></li>
                                 <li><a href="consultation.html"> <span>Records</span></a></li>
                             </ul>
                         </div>  
-                        <div class="cell medium-3"></div>
                     </section>
+                    <!-- Left bar -->
                     <!-- Right Content -->
-                    <section class="cell grid-x grid-margin-x medium-9 medium-cell-block-y">
+                    <section class="cell grid-x grid-margin-x medium-10 medium-cell-block-y">
                         <!-- Music list -->
                         <section class="cell grid-x grid-margin-x medium-12">
+                            <!-- Content Tittle -->
+                            <h1>MyPlayList</h1>
+                            <!-- Content Tittle -->
                             <!-- List Tittle -->
                             <section class="cell grid-x medium-12">
-                                <div class="cell small-10 medium-10 large-10"><h2>Music</h2></div>
-                                <div class="cell small-2 medium-2 large-2 button">More ></div>
+                                <h2>Music</h2>
                             </section>
+                            <!-- List Tittle -->
                             <!-- Music Cards -->
                             <section class="grid-container">
                                 <div class="grid-x grid-margin-x">
                                     <div class="cell medium-2">
                                         <div class="card">
                                             <img src="Resources/Images/music.png">
-                                            <h5>Music Name</h5>
-                                            <p>The more information of music</p>
+                                            <div class="card-section">
+                                                <h2>Music Name</h2>
+                                                <p>The more information of music</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="cell medium-2">
                                         <div class="card">
                                             <img src="Resources/Images/music.png">
-                                            <h5>Music Name</h5>
-                                            <p>The more information of music</p>
+                                            <div class="card-section">
+                                                <h2>Music Name</h2>
+                                                <p>The more information of music</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="cell medium-2">
                                         <div class="card">
                                             <img src="Resources/Images/music.png">
-                                            <h5>Music Name</h5>
-                                            <p>The more information of music</p>
+                                            <div class="card-section">
+                                                <h2>Music Name</h2>
+                                                <p>The more information of music</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="cell medium-2">
                                         <div class="card">
                                             <img src="Resources/Images/music.png">
-                                            <h5>Music Name</h5>
-                                            <p>The more information of music</p>
+                                            <div class="card-section">
+                                                <h2>Music Name</h2>
+                                                <p>The more information of music</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="cell medium-2">
                                         <div class="card">
                                             <img src="Resources/Images/music.png">
-                                            <h5>Music Name</h5>
-                                            <p>The more information of music</p>
+                                            <div class="card-section">
+                                                <h2>Music Name</h2>
+                                                <p>The more information of music</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="cell medium-2">
                                         <div class="card">
                                             <img src="Resources/Images/music.png">
-                                            <h5>Music Name</h5>
-                                            <p>The more information of music</p>
+                                            <div class="card-section">
+                                                <h2>Music Name</h2>
+                                                <p>The more information of music</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </section>   
+                            </section>  
+                             
                         </section>
+                        <!-- Music list -->
                         <!-- Podcast list -->
                         <section class="cell grid-x grid-margin-x medium-12">
                             <!-- List Tittle -->
                             <section class="cell grid-x medium-12">
-                                <div class="cell small-10 medium-10 large-10"><h2>Podcast</h2></div>
-                                <div class="cell small-2 medium-2 large-2 button">More ></div>
+                                <h4>Podcast</h4>
                             </section>
+                            <!-- List Tittle -->
                             <!-- Podcast Cards -->
                             <section class="grid-container">
                                 <div class="grid-x grid-margin-x">
                                     <div class="cell medium-2">
                                         <div class="card">
                                             <img src="Resources/Images/podcast.png">
-                                            <h5>Podcast Name</h5>
-                                            <p>The more information of podcast</p>
+                                            <div class="card-section">
+                                                <h2>Podcast Name</h2>
+                                                <p>The more information of podcast</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="cell medium-2">
                                         <div class="card">
                                             <img src="Resources/Images/podcast.png">
-                                            <h5>Podcast Name</h5>
-                                            <p>The more information of podcast</p>
+                                            <div class="card-section">
+                                                <h2>Podcast Name</h2>
+                                                <p>The more information of podcast</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="cell medium-2">
                                         <div class="card">
                                             <img src="Resources/Images/podcast.png">
-                                            <h5>Podcast Name</h5>
-                                            <p>The more information of podcast</p>
+                                            <div class="card-section">
+                                                <h2>Podcast Name</h2>
+                                                <p>The more information of podcast</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="cell medium-2">
                                         <div class="card">
                                             <img src="Resources/Images/podcast.png">
-                                            <h5>Podcast Name</h5>
-                                            <p>The more information of podcast</p>
+                                            <div class="card-section">
+                                                <h2>Podcast Name</h2>
+                                                <p>The more information of podcast</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="cell medium-2">
                                         <div class="card">
                                             <img src="Resources/Images/podcast.png">
-                                            <h5>Podcast Name</h5>
-                                            <p>The more information of podcast</p>
+                                            <div class="card-section">
+                                                <h2>Podcast Name</h2>
+                                                <p>The more information of podcast</p>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="cell medium-2">
                                         <div class="card">
                                             <img src="Resources/Images/podcast.png">
-                                            <h5>Podcast Name</h5>
-                                            <p>The more information of podcast</p>
+                                            <div class="card-section">
+                                                <h2>Podcast Name</h2>
+                                                <p>The more information of podcast</p>
+                                            </div>
                                         </div>
                                     </div>
+                                    
                                 </div>
-                            </section>   
+                            </section>
+                            <!-- Podcast Cards -->   
                         </section>
+                        <!-- Podcast list -->
                     </section>
+                    <!-- Right Content -->
                 </section>
             </section>
+            <!-- Main concent-->
         </div>
 
-
+        <!-- ZURB FOUNDATION JS -->
         <script src="js/vendor/jquery.js"></script>
         <script src="js/vendor/what-input.js"></script>
         <script src="js/vendor/foundation.js"></script>
         <script src="js/app.js"></script>
+        <!-- ZURB FOUNDATION JS-->
 
     </body>
 </html>
