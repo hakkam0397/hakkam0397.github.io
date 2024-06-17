@@ -35,7 +35,7 @@
 <body>
     <header>
         <!-- Navigation Bar-->
-        <nav>
+        <!-- <nav>
             <ul class="horizontal menu">
                 <li><a href="index.html"><img src="Resources/Images/SnoozeCare_Logo_trnprnt.png" alt="Logo"
                             style="height: 24px; width: auto;"></a></li>
@@ -44,14 +44,40 @@
                 <li><a href="consultation.html"><i class="fi-rr-doctor"></i> <span>Consult</span></a></li>
                 <li><a href="settings.html"><i class="fi-rr-settings-sliders"></i> <span>Settings</span></a></li>
             </ul>
-        </nav>
+        </nav> -->
         <!-- Navigation Bar-->
+        <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+            <div class="title-bar-title">Menu</div>
+          </div>
+          
+          <div class="top-bar" id="responsive-menu">
+            <div class="top-bar-left">
+              <ul class="dropdown menu" data-dropdown-menu>
+                <li><a href="index.html"><img src="Resources/Images/SnoozeCare_Logo_trnprnt.png" alt="Logo"
+                    style="height: 24px; width: auto;"></a></li>
+                <li><a href="index.html"><i class="fi-rr-dashboard-panel"></i> <span>Dashboard</span></a></li>
+                <li><a href="myCare.html"><i class="fi-rr-heart-partner-handshake"></i> <span>MyCare</span></a></li>
+                <li><a href="consultation.html"><i class="fi-rr-doctor"></i> <span>Consult</span></a></li>
+                <li><a href="settings.html"><i class="fi-rr-settings-sliders"></i> <span>Settings</span></a></li>
+              </ul>
+            </div>
+            <!-- <div class="top-bar-right">
+              <ul class="menu">
+                <li><input type="search" placeholder="Search"></li>
+                <li><button type="button" class="button">Search</button></li>
+              </ul>
+            </div> -->
+          </div>
+          <!-- Navigation Bar-->
+
+
     </header>
     <div class="page-wrapper"> <!-- Page wrapper to add margin to whole page -->
         <br>
         <!-- <div class="grid-x grid-margin-x">
             <div class="cell small-6"> -->
-        <div class="card">
+        <div class="card"> <!--Outer Card-->
             <div class="grid-x grid-margin-x">
                 <div class="cell small-6">
                     <div class="card-section">
@@ -77,12 +103,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div><!--Outer Card-->
         <!-- </div>
         </div> -->
         <br>
         <!-- <div class="cell small-6"> -->
-        <div class="card">
+        <div class="card"> <!--Outer Card-->
             <div class="callout primary">
                 <div class="row">
                     <h5>Historical Data</h5>
@@ -91,14 +117,14 @@
                     <p>Show Sleep Statistics Graphs</p>
                 </div>
             </div>
-        </div>
+        </div> <!--Outer Card-->
         <!-- </div> -->
 
         <br>
         <h4>Recommendation</h4> <!-- Reccomendations View -->
         <br>
-        <div class="grid-container">
-            <div class="grid-x grid-margin-x small-up-1 medium-up-2">
+        <div class="grid-container"> <!--Responsive XY Grid-->
+            <div class="grid-x grid-margin-x grid-margin-y small-up-1 medium-up-2">
                 <div class="cell">
                     <div class="card">
                         <div class="media-object">
@@ -138,23 +164,23 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> <!--Responsive XY Grid-->
         <br>
         <!-- Consultations View -->
         <h4>Consultation</h4>
         <br>
-        <div class="card">
-            <div class="grid-x grid-margin-x small-up-1 medium-up-4">
+        <div class="grid-container fluid"> <!--Responsive XY Grid container: To stretch the content to the full width of the available space-->
+            <div class="grid-x grid-margin-x grid-margin-y small-up-1 medium-up-2 large-up-4"> 
                 <div class="cell small-3">
-                    <div class="card">
+                    <div class="card"> <!--Doctor Card XY Grid-->
                         <div class="row">
                             <div class="grid-x grid-margin-x">
-                                <div class="cell small-3">
-                                    <div class="row">
+                                <div class="cell small-3"> 
+                                    <div class="row"> <!--Doctor Image XY Grid-->
                                         <img id="appointmentImage" src="Resources/Images/dp-vs.jpg">
                                     </div>
                                 </div>
-                                <div class="cell auto">
+                                <div class="cell auto"> <!--Doctor Skills XY Grid-->
                                     <div class="card-section">
                                         <div class="row">
                                             <h5>Doctor's information</h5>
@@ -164,7 +190,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row"> <!--Doctor Profile/Appointment buttons XY Grid-->
                             <div class="grid-x grid-margin-x">
                                 <div class="cell small-6">
                                     <button type="button" class="button small expanded">View Profile</button>
@@ -270,7 +296,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> <!--Responsive XY Grid-->
     </div>
 
     <br>
