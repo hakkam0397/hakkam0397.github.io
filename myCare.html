@@ -22,7 +22,6 @@
 
     <!-- ZURB FOUNDATION -->
     <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
     <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet'
         type='text/css'>
     <!-- ZURB FOUNDATION -->
@@ -34,52 +33,66 @@
 
 <body>
     <header>
-        <h1 id="top-heading">Welcome to SnoozeCare!</h1>
         <!-- Navigation Bar-->
-        <nav>
-            <ul class="horizontal menu">
-                <li><a href="index.html"><i class="fi-list"></i> <span>Dashboard</span></a></li>
-                <li><a href="myCare.html"><i class="fi-list"></i> <span>MyCare</span></a></li>
-                <li><a href="settings.html"><i class="fi-list"></i> <span>Settings</span></a></li>
-            </ul>
-        </nav>
+        <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+            <div class="title-bar-title">Menu</div>
+          </div>
+          
+          <div class="top-bar" id="responsive-menu">
+            <div class="top-bar-left">
+              <ul class="dropdown menu" data-dropdown-menu>
+                <li><a href="index.html"><img src="Resources/Images/SnoozeCare_Logo_trnprnt.png" alt="Logo"
+                    style="height: 24px; width: auto;"></a></li>
+                <li><a href="index.html"><i class="fi-rr-dashboard-panel"></i> <span>Dashboard</span></a></li>
+                <li><a href="myCare.html"><i class="fi-rr-heart-partner-handshake"></i> <span>MyCare</span></a></li>
+                <li><a href="consultation.html"><i class="fi-rr-doctor"></i> <span>Consult</span></a></li>
+                <li><a href="settings.html"><i class="fi-rr-settings-sliders"></i> <span>Settings</span></a></li>
+              </ul>
+            </div>
+            </div>
     </header>
 
     <br>
 
     <!-- Left Menu -->
-    </div>
     <div class="grid-x">
-    <div class="cell large-3 medium-2 small-2">
-        <p><img src="Resources/Images/dp-s.jpg" width="200px" height="200px" alt="user-image"></p>
-        <p>UserName</p>
-        <p><a href="personaldata.html"> Personal Data</a></p>
-        <p><a href="myplaylist.html"> My PlayList</a></p>
-        <p><a href="consultation.html"> Medical Records</a></p>
-    </div>
+            <div class="card" style="width: 200px;">
+                <div class="card-divider">
+                </div>
+                <div class="cell large-3 medium-2 small-2">
+                    <p><img src="Resources/Images/dp-s.jpg" width="200px" height="200px" alt="user-image"></p>
+                    <p>UserName</p>
+                    <ul>
+                    <li><a href="personaldata.html"> Personal Data</a></li>
+                    <li><a href="myplaylist.html"> My PlayList</a></li>
+                    <li><a href="consultation.html"> Medical Records</a></li>
+                    </ul>
+                </div>
+            </div>
 
     <!-- Personal Data -->
-    <div class="cell large-9 medium-10 small-10">
-        <dl>
-            <dt>Name:</dt>
-            <dd>Mary Jane Watson</dd>
-            <br>
-            <dt>Email Id:</dt>
-            <dd>maryjanewatson@gmail.com</dd>
-            <br>
-            <dt>Contact Number</dt>
-            <dd>+1 (675) 689-7654</dd>
-            <br>
-            <dt>Age</dt>
-            <dd>42</dd>
-            <br>
-            <dt>Saved Payment Modes</dt>
-            <dd><a href=https://www.cibconline.cibc.com/ebm-resources/online-banking/client/index.html#/auth/signon>CIBC Credit Card</a></dd>
-            <br>
-            <a href="editprofile.html" class="small secondary button">Edit Profile</a>
-            
-        </dl>
-    </div>
+        <div class="cell large-9 medium-10 small-10">
+            <dl>
+                <dt>Name:</dt>
+                <dd>Mary Jane Watson</dd>
+                <br>
+                <dt>Email Id:</dt>
+                <dd>maryjanewatson@gmail.com</dd>
+                <br>
+                <dt>Contact Number</dt>
+                <dd>+1 (675) 689-7654</dd>
+                <br>
+                <dt>Age</dt>
+                <dd>42</dd>
+                <br>
+                <dt>Saved Payment Modes</dt>
+                <dd><a href=https://www.cibconline.cibc.com/ebm-resources/online-banking/client/index.html#/auth/signon>CIBC Credit Card</a></dd>
+                <br>
+                <a href="editprofile.html" class="small secondary button">Edit Profile</a>
+                
+            </dl>
+        </div>
     </div>
     
 
