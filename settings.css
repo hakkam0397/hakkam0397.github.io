@@ -7,16 +7,17 @@ body {
     background: linear-gradient(135deg, rgba(87, 65, 136, 1) 0%, rgba(70, 49, 116, 1) 35%, rgba(34, 16, 75, 1) 100%);
 }
 
+/* Adding margin on the left side */
 .page-wrapper {
     margin: 0 20px;
-    /* Adjust the margin as per your design */
 }
+/* Adding margin on the left side */
 
+/* Headings */
 h1 {
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-style: normal;
 }
 
 h2 {
@@ -26,11 +27,13 @@ h2 {
 h3 {
     font-size: 14px;
 }
+/* Headings */
 
 p {
     font-size: 14px;
 }
 
+/* Card */
 .card {
     border-radius: 8px;
     border-color: #22104b7d;
@@ -41,7 +44,9 @@ p {
     display: flex;
     width: 100%;
 }
+/* Card */
 
+/* Navigation */
 nav {
     background-color: white;
     padding: 10px;
@@ -103,22 +108,24 @@ ul.horizontal.menu li:first-child:hover a {
     color: white;
     background-color: white;
 }
+/* Navigation */
 
+/* Primary Button */
 .button {
-    background-color: white;
+    background-color: #ED1D24;
     border: none;
-    color: #22104b;
+    color: white;
     padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 4px;
     border-radius: 8px;
 }
 
 .button:hover {
-    background-color: #22104b;
+    background-color: #ED1D24;
     color: white;
 }
 
@@ -126,52 +133,38 @@ ul.horizontal.menu li:first-child:hover a {
     background-color: white;
     color: #22104b;
 }
-
-#top-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-h3 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
+/* Primary Button */
 
 a {
     color: white;
 }
 
+/* Top Padding */
 p {
     padding-top: 8px;
 }
+/* Top Padding */
 
 p1 {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
     opacity: 64%;
 }
 
-button p {
-    color: #ED1D24;
+/* Edit Button */
+.small.tertiary.button {
+    background-color: white;
+    color: #222222;
+    font-size: 16px;
 }
+/* Edit Button */
 
-h1 {
-    padding-top: 12px;
-}
-
-#small alert button {
-    text-decoration: white;
-    width: ;
-}
-
+/* Settings Option */
 ul {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;
     font-size: 16px;
     text-decoration: none;
     color: white;
 }
+/* Settings Option */
