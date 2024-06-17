@@ -30,17 +30,24 @@
     </head>
     <body>
          <div class="grid-y medium-grid-frame">
-            <!-- Navigation Bar-->
-            <nav>
-                <ul class="horizontal menu">
-                    <li><a href="index.html"><img src="Resources/Images/SnoozeCare_Logo_trnprnt.png" alt="Logo" style="height: 24px; width: auto;"></a></li>
+            <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+                <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+                <div class="title-bar-title">Menu</div>
+              </div>
+              
+              <div class="top-bar" id="responsive-menu">
+                <div class="top-bar-left">
+                  <ul class="dropdown menu" data-dropdown-menu>
+                    <li><a href="index.html"><img src="Resources/Images/SnoozeCare_Logo_trnprnt.png" alt="Logo"
+                        style="height: 24px; width: auto;"></a></li>
                     <li><a href="index.html"><i class="fi-rr-dashboard-panel"></i> <span>Dashboard</span></a></li>
                     <li><a href="myCare.html"><i class="fi-rr-heart-partner-handshake"></i> <span>MyCare</span></a></li>
                     <li><a href="consultation.html"><i class="fi-rr-doctor"></i> <span>Consult</span></a></li>
                     <li><a href="settings.html"><i class="fi-rr-settings-sliders"></i> <span>Settings</span></a></li>
-                </ul>
-            </nav>
-            <!-- Navigation Bar-->
+                  </ul>
+                </div>
+              </div>
+              <!-- Navigation Bar-->
             <!-- Main concent-->
             <section class="cell medium-auto medium-cell-block-container">
                 <section class="grid-x grid-padding-x content">
