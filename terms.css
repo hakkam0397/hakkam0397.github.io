@@ -18,6 +18,13 @@ body {
 }
 /* Adding margin on the left side */
 
+/* Highlight */
+::selection {
+    color: #22104b;
+    background: white;
+}
+/* Highlight */
+
 /* Headings */
 #top-heading {
     font-size: 24px;
