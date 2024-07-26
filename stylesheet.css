@@ -250,6 +250,7 @@ body {
     line-height: var(--XS-semibold-line-height);
     white-space: nowrap;
     font-style: var(--XS-semibold-font-style);
+    font-size: 12px;
   }
   
   .frame .bxs-up-arrow {
@@ -257,6 +258,72 @@ body {
     width: 20px;
     height: 20px;
   }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.section-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: #888;
+}
+
+.article, .audio {
+    background-color: #2e2e2e;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.article img, .audio img {
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.article-content, .audio-content {
+    flex: 1;
+}
+
+.article-title, .audio-title {
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+
+.article-description {
+    font-size: 14px;
+    color: #aaa;
+    margin: 5px 0;
+}
+
+.article-details {
+    font-size: 12px;
+    color: #888;
+}
+
+.audio-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.audio {
+    width: 23%;
+}
+
 
 /* Roboto FONT CSS */
 .roboto-thin {
