@@ -1,4 +1,4 @@
-<!-- Author: Michelle Fernandes *-->
+/* Author: Michelle Fernandes */
 
 body {
     max-width: 100%;
@@ -14,7 +14,7 @@ body {
     background-color: #22104b7d;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     /* border: 1px solid #ccc; */
-    color: white;
+    color: white; 
     margin: 0 auto;
     float: none;
     display: flex;
@@ -22,7 +22,6 @@ body {
     text-align: left;
     padding: 20px;
     text-decoration: none;
-
 }
 
 .content{
