@@ -105,9 +105,9 @@ body {
 }
 
 .button {
-    background-color: white;
-    border: none;
-    color: #1F2628;
+    background-color: #293339;
+    border: #363D3F;
+    color: white;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -119,13 +119,13 @@ body {
 }
 
 .button:hover {
-    background-color: #26C485;
+    background-color: #293339;
     color: white;
 }
 
 .button:active {
-    background-color: white;
-    color: #1F2628;
+    background-color: #293339;
+    color: white;
 }
 
 /* Roboto FONT CSS */
