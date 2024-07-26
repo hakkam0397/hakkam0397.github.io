@@ -104,9 +104,20 @@ body {
     height: 200;
 }
 
+.align-right {
+    display: flex;
+    justify-content: flex-end; /* Align items to the end (right side) */
+}
+
+.center-content {
+    padding: 10px;
+    display: flex;
+    justify-content: left; /* Centers items horizontally */
+}
+
 .button {
     background-color: #293339;
-    border: #363D3F;
+    /* border: #EBEBEB; */
     color: white;
     padding: 20px;
     text-align: center;
@@ -115,6 +126,9 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 8px;
+    border-color: #363D3F;
+    border-width: 1px;
+    box-shadow: 0px 2px 2px 0px #363D3F;
     font-weight: bold;
 }
 
