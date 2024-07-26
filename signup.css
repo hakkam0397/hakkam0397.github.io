@@ -1,5 +1,6 @@
 /* Author: Dhruv Mehta */
 
+/* Body */
 html, body {
     min-height: 100vh;
     margin: 0;
@@ -15,12 +16,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+/* Body */
 
 /* Adding margin on the left side */
 .page-wrapper {
     margin: 0px;
 }
-
 /* Adding margin on the left side */
 
 img {
@@ -38,7 +39,6 @@ img {
     color: #22104b;
     background: white;
 }
-
 /* Highlight */
 
 /* Headings */
@@ -64,7 +64,6 @@ h3 {
     font-weight: 500;
     padding: 20px 20px 20px 20px;
 }
-
 /* Headings */
 
 p {
@@ -136,7 +135,6 @@ ul.horizontal.menu li:first-child:hover a {
     color: white;
     background-color: white;
 }
-
 /* Navigation */
 
 /* Primary Button */
@@ -163,7 +161,6 @@ ul.horizontal.menu li:first-child:hover a {
     background-color: white;
     color: #22104b;
 }
-
 /* Primary Button */
 
 .text-center {
@@ -178,7 +175,6 @@ a {
 p {
     padding-top: 8px;
 }
-
 /* Top Padding */
 
 /* Outline Button */
@@ -195,7 +191,6 @@ p {
     border-color: transparent;
     color: #222222;
 }
-
 /* Outline Button */
 
 .frame {
