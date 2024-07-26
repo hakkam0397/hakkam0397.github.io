@@ -4,8 +4,8 @@ body {
     max-width: 100%;
     margin: 0 auto;
     color: white;
-    background: rgb(87, 65, 136);
-    background: linear-gradient(135deg, rgba(87, 65, 136, 1) 0%, rgba(70, 49, 116, 1) 35%, rgba(34, 16, 75, 1) 100%);
+    background: linear-gradient(#293339, #0E1313);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Adding margin on the left side */
@@ -53,8 +53,8 @@ p {
 /* Card */
 .card {
     border-radius: 8px;
-    border-color: #22104b7d;
-    background-color: #22104b7d;
+    border-color: #282F31;
+    background-color: #1F2628;
     color: white;
     margin: 0 auto;
     float: none;
@@ -65,9 +65,8 @@ p {
 
 /* Navigation */
 nav {
-    background-color: white;
+    background-color: transparent;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
     width: 100%
 }
 
@@ -85,26 +84,22 @@ nav {
 
 .horizontal.menu a {
     text-decoration: none;
-    color: #22104b;
-    /* Menu button color */
-    padding: 10px 20px;
+    background-color: #1F2628;
+    border-color: #363D3F;
+    border-radius: 8px;
+    /* Menu button color */ 
     display: flex;
     align-items: center;
-    gap: 8px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .horizontal.menu a:hover {
     background-color: #22104b;
-    color: white;
+    color: #222222;
+    border-color: 363D3F;
+    border-radius: 8px;
     /* Change to a visible color on hover */
     /
-}
-
-.horizontal.menu a:hover i {
-    background-color: #22104b;
-    color: white;
-    /* Change to a visible color on hover */
 }
 
 .horizontal.menu a span {
@@ -117,12 +112,12 @@ nav {
 }
 
 ul.horizontal.menu li:first-child {
-    background-color: white;
+    background-color: transparent;
     color: white;
 }
 
 ul.horizontal.menu li:first-child:hover a {
-    color: white;
+    color: #222;
     background-color: white;
 }
 /* Navigation */
@@ -143,7 +138,8 @@ ul.horizontal.menu li:first-child:hover a {
 }
 
 .button:hover {
-    background-color: #22104b;
+    background-color: #1F2628;
+    border-color: #363D3F;
     color: white;
 }
 

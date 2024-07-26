@@ -4,8 +4,8 @@ body {
     max-width: 100%;
     margin: 0 auto;
     color: white;
-    background: rgb(87, 65, 136);
-    /* background: linear-gradient(135deg, #7f6baa 0%, #463174 35%, #22104b 100%); */
+    background: linear-gradient(#293339, #0E1313);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Adding margin on the left side */
@@ -57,8 +57,8 @@ p {
 /* Card */
 .card {
     border-radius: 8px;
-    border-color: transparent;
-    background-color: #22104b7d;
+    border-color: #282F31;
+    background-color: #1F2628;
     color: white;
     margin: 0 auto;
     float: none;
@@ -83,13 +83,14 @@ p {
     justify-content: left;
 }
 
-#responsive-menu li {
+/* #responsive-menu li {
     display: inline;
-}
+} */
 
 #responsive-menu a {
     text-decoration: none;
-    color: #22104b;
+    color: white;
+    background-color: #1F2628;
     /* Menu button color */
     padding: 10px 20px;
     display: flex;
@@ -99,14 +100,13 @@ p {
 }
 
 #responsive-menu a:hover {
-    background-color: #22104b;
+    background-color: #1F2628;
     color: white;
     /* Change to a visible color on hover */
-    /
 }
 
 #responsive-menu a:hover i {
-    background-color: #22104b;
+    background-color: #1F2628;
     color: white;
     /* Change to a visible color on hover */
 }
@@ -116,24 +116,27 @@ p {
 }
 
 #responsive-menu a i {
-    color: #22104b;
+    color: white;
     /* Icon color */
-}
-
-#responsive-menu li:first-child {
-    background-color: white;
-    color: white;
-}
-
-#responsive-menu li:first-child:hover a {
-    color: white;
-    background-color: white;
 }
 
 #appointmentImage {
     object-fit: fill;
     width: fit-content;
     height: 200;
+}
+
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+    /* Align items to the end (right side) */
+}
+
+.center-content {
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    /* Centers items horizontally */
 }
 /* Navigation */
 

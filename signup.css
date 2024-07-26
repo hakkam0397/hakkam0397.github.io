@@ -4,8 +4,8 @@ body {
     max-width: 100%;
     margin: 0 auto;
     color: white;
-    background: rgb(87, 65, 136);
-    background: linear-gradient(135deg, rgba(87, 65, 136, 1) 0%, rgba(70, 49, 116, 1) 35%, rgba(34, 16, 75, 1) 100%);
+    background: linear-gradient(#293339, #0E1313);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Adding margin on the left side */
@@ -128,7 +128,7 @@ ul.horizontal.menu li:first-child:hover a {
 }
 
 .button:hover {
-    background-color: #22104b;
+    background-color: #1F2628;
     color: white;
 }
 
@@ -154,16 +154,16 @@ p {
 
 /* Outline Button */
 .hollow.button {
-    border-color: white;
-    background-color: transparent;
+    border-color: #363D3F;
+    background-color: #1F2628;
     color: white;
     width: 300px;
     font-size: 16px;
 }
 
 .hollow.button:hover {
-    background-color: #362662;
+    background-color: white;
     border-color: transparent;
-    color: white;
+    color: #222222;
 }
 /* Outline Button */
