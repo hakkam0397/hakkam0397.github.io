@@ -1,19 +1,31 @@
 /* Author: Dhruv Mehta */
 
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     max-width: 100%;
     margin: 0 auto;
     color: white;
     background: linear-gradient(#293339, #0E1313);
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Adding margin on the left side */
 .page-wrapper {
-    margin: 0 20px;
+    margin: 0px;
 }
 
 /* Adding margin on the left side */
+
+img {
+    width: 340px;
+}
 
 /* Highlight */
 ::selection {
@@ -28,19 +40,22 @@ body {
     font-size: 24px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    padding-top: 12px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 h2 {
     font-size: 18px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    padding: 20px 20px 20px 20px;
 }
 
 h3 {
     font-size: 14px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    padding: 20px 20px 20px 20px;
 }
 
 /* Headings */
@@ -49,6 +64,7 @@ p {
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    padding-left: 20px;
 }
 
 /* Navigation */
