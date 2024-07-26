@@ -133,24 +133,36 @@ body {
     box-shadow: 0px 2px 2px 0px #363D3F;
     font-weight: bold;
 }
+
 .button-with-image {
     display: flex;
     align-items: center;
     background-color: #293339;
-    border: none; /* Remove borders */
-    color: white; /* White text */
-    padding: 10px 10px; /*Some padding*/
-    text-align: center; /* Center the text (if there is any) */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Get it to sit inline with text */
-    font-size: 16px; /* Increase font size */
-    margin: 4px 2px; /* Some margin */
-    cursor: pointer; /* Pointer/hand icon */
-    border-radius: 20px; /* Rounded corners */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 10px 10px;
+    /*Some padding*/
+    text-align: center;
+    /* Center the text (if there is any) */
+    text-decoration: none;
+    /* Remove underline */
+    display: inline-block;
+    /* Get it to sit inline with text */
+    font-size: 16px;
+    /* Increase font size */
+    margin: 4px 2px;
+    /* Some margin */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    border-radius: 20px;
+    /* Rounded corners */
 }
 
 .button-with-image img {
-    margin-right: 10px; /* Space between image and text */
+    margin-right: 10px;
+    /* Space between image and text */
 }
 
 .button:hover {
@@ -174,26 +186,26 @@ body {
     border: 1px solid;
     border-color: #363d3f;
     margin: 5px 0px;
-  }
-  
-  .frame .div {
+}
+
+.frame .div {
     align-items: center;
     justify-content: center;
     gap: 8px;
     display: inline-flex;
     position: relative;
     flex: 0 0 auto;
-  }
-  
-  .frame .rectangle {
+}
+
+.frame .rectangle {
     position: relative;
     width: 10px;
     height: 10px;
     background-color: #ffffff;
     border-radius: 2px;
-  }
-  
-  .frame .text-wrapper {
+}
+
+.frame .text-wrapper {
     position: relative;
     width: fit-content;
     margin-top: -1px;
@@ -205,26 +217,26 @@ body {
     line-height: var(--s-semibold-line-height);
     white-space: nowrap;
     font-style: var(--s-semibold-font-style);
-  }
-  
-  .frame .div-2 {
+}
+
+.frame .div-2 {
     align-items: center;
     gap: 8px;
     display: inline-flex;
     position: relative;
     flex: 0 0 auto;
-  }
-  
-  .frame .div-3 {
+}
+
+.frame .div-3 {
     flex-direction: column;
     align-items: flex-end;
     gap: 2px;
     display: inline-flex;
     position: relative;
     flex: 0 0 auto;
-  }
-  
-  .frame .text-wrapper-2 {
+}
+
+.frame .text-wrapper-2 {
     position: relative;
     width: fit-content;
     margin-top: -1px;
@@ -237,9 +249,9 @@ body {
     line-height: var(--m-bold-line-height);
     white-space: nowrap;
     font-style: var(--m-bold-font-style);
-  }
-  
-  .frame .text-wrapper-3 {
+}
+
+.frame .text-wrapper-3 {
     position: relative;
     width: fit-content;
     font-family: var(--XS-semibold-font-family);
@@ -251,21 +263,21 @@ body {
     white-space: nowrap;
     font-style: var(--XS-semibold-font-style);
     font-size: 12px;
-  }
-  
-  .frame .bxs-up-arrow {
+}
+
+.frame .bxs-up-arrow {
     position: relative;
     width: 20px;
     height: 20px;
-  }
+}
 
-  body {
+/* body {
     font-family: Arial, sans-serif;
     background-color: #1e1e1e;
     color: #ccc;
     margin: 0;
     padding: 0;
-}
+} */
 
 .container {
     padding: 20px;
@@ -278,7 +290,8 @@ body {
     color: #888;
 }
 
-.article, .audio {
+.article,
+.audio {
     background-color: #2e2e2e;
     padding: 10px;
     border-radius: 10px;
@@ -287,18 +300,21 @@ body {
     align-items: center;
 }
 
-.article img, .audio img {
+.article img,
+.audio img {
     border-radius: 10px;
     margin-right: 10px;
     width: 60px;
     height: 60px;
 }
 
-.article-content, .audio-content {
+.article-content,
+.audio-content {
     flex: 1;
 }
 
-.article-title, .audio-title {
+.article-title,
+.audio-title {
     font-size: 18px;
     color: white;
     margin: 0;
