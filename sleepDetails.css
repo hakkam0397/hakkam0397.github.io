@@ -1,9 +1,71 @@
+/* styles.css */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.button-group .button {
+    background-color: #333;
+    color: white;
+    border: none;
+    margin: 0 5px;
+}
+
+.button-group .button.active {
+    background-color: #007aff;
+}
+
+.summary {
+    padding: 10px 0;
+}
+
+.sleep-chart {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.chart {
+    background-color: #4caf50;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.time {
+    font-size: 0.9em;
+}
+
+.stages {
+    margin-top: 10px;
+}
+
+.statistics,
+.sleep-contributors,
+.snooze-recordings {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.statistics div,
+.sleep-contributors div,
+.snooze-recordings div {
+    padding: 5px 0;
+}
+
 /* Author: Harminder Singh */
 
 body {
     max-width: 100%;
     margin: 0 auto;
-    color: white;
+    /* color: white; */
     background: linear-gradient(#293339, #0E1313);
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
@@ -15,7 +77,7 @@ body {
     align-items: left;
     flex-direction: column;
     min-height: 100vh;
-    margin: 0 20px;
+    /* margin: 0 20px; */
 }
 
 #statsRow {
@@ -41,6 +103,44 @@ body {
     text-align: left;
     padding: 10px;
 }
+
+
+.hover-underline-menu {
+  width: 100%;
+}
+
+.hover-underline-menu .menu {
+  background-color: #2C3840;
+}
+
+.hover-underline-menu .menu a {
+  color: #fefefe;
+  padding: 1.2rem 1.5rem;
+}
+
+.hover-underline-menu .menu .underline-from-center {
+  position: relative;
+}
+
+.hover-underline-menu .menu .underline-from-center::after {
+  content: "";
+  position: absolute;
+  top: calc(100% - 0.125rem);
+  border-bottom: 0.125rem solid #fefefe;
+  left: 50%;
+  right: 50%;
+  transition: all 0.5s ease;
+}
+
+.hover-underline-menu .menu .underline-from-center:hover::after {
+  left: 0;
+  right: 0;
+  transition: all 0.5s ease;
+}
+
+
+
+
 
 /* .card-section {
     padding: 20px;
@@ -378,6 +478,34 @@ body {
 .audio-section {
     display: flex;
     justify-content: space-between;
+}
+
+.grid-container {
+    padding: 20px;
+}
+
+.statistics-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.card-section {
+    padding: 10px;
+}
+
+.card-section p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.card-section h3 {
+    font-size: 2em;
+    margin: 10px 0 0;
+}
+
+.time-unit {
+    font-size: 0.6em;
+    vertical-align: super;
 }
 
 /* Roboto FONT CSS */

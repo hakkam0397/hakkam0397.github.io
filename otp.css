@@ -1,11 +1,19 @@
 /* Author: Dhruv Mehta */
 
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     max-width: 100%;
     margin: 0 auto;
     color: white;
-    background: rgb(87, 65, 136);
-    background: linear-gradient(135deg, rgba(87, 65, 136, 1) 0%, rgba(70, 49, 116, 1) 35%, rgba(34, 16, 75, 1) 100%);
+    background: linear-gradient(#293339, #0E1313);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Adding margin on the left side */
@@ -52,9 +60,8 @@ p {
 
 /* Navigation */
 nav {
-    background-color: white;
+    background-color: transparent;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
     width: 100%
 }
 
@@ -72,26 +79,22 @@ nav {
 
 .horizontal.menu a {
     text-decoration: none;
-    color: #22104b;
-    /* Menu button color */
-    padding: 10px 20px;
+    background-color: #1F2628;
+    border-color: #363D3F;
+    border-radius: 8px;
+    /* Menu button color */ 
     display: flex;
     align-items: center;
-    gap: 8px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .horizontal.menu a:hover {
     background-color: #22104b;
-    color: white;
+    color: #222222;
+    border-color: 363D3F;
+    border-radius: 8px;
     /* Change to a visible color on hover */
     /
-}
-
-.horizontal.menu a:hover i {
-    background-color: #22104b;
-    color: white;
-    /* Change to a visible color on hover */
 }
 
 .horizontal.menu a span {
@@ -104,12 +107,12 @@ nav {
 }
 
 ul.horizontal.menu li:first-child {
-    background-color: white;
+    background-color: transparent;
     color: white;
 }
 
 ul.horizontal.menu li:first-child:hover a {
-    color: white;
+    color: #222;
     background-color: white;
 }
 /* Navigation */
@@ -130,7 +133,8 @@ ul.horizontal.menu li:first-child:hover a {
 }
 
 .button:hover {
-    background-color: #22104b;
+    background-color: #1F2628;
+    border-color: #363D3F;
     color: white;
 }
 
@@ -164,9 +168,9 @@ p {
 }
 
 .hollow.button:hover {
-    background-color: #362662;
+    background-color: white;
     border-color: transparent;
-    color: white;
+    color: #222222;
 }
 /* Outline Button */
 
@@ -178,5 +182,100 @@ p {
 label {
     color: white;
     padding-top: 8px;
-    width: 200px;
+}
+
+.frame {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    position: relative;
+    background-color: #ffffff0a;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #363d3f;
+    margin: 5px 0px;
+}
+
+.frame .div {
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frame .rectangle {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+.frame .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--s-semibold-font-family);
+    font-weight: var(--s-semibold-font-weight);
+    color: #ffffff;
+    font-size: var(--s-semibold-font-size);
+    letter-spacing: var(--s-semibold-letter-spacing);
+    line-height: var(--s-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--s-semibold-font-style);
+}
+
+.frame .div-2 {
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frame .div-3 {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frame .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--m-bold-font-family);
+    font-weight: var(--m-bold-font-weight);
+    color: #ffffff;
+    font-size: var(--m-bold-font-size);
+    text-align: center;
+    letter-spacing: var(--m-bold-letter-spacing);
+    line-height: var(--m-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--m-bold-font-style);
+}
+
+.frame .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--XS-semibold-font-family);
+    font-weight: var(--XS-semibold-font-weight);
+    color: #ffffffa3;
+    font-size: var(--XS-semibold-font-size);
+    letter-spacing: var(--XS-semibold-letter-spacing);
+    line-height: var(--XS-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--XS-semibold-font-style);
+    font-size: 12px;
+}
+
+.frame .bxs-up-arrow {
+    position: relative;
+    width: 20px;
+    height: 20px;
 }
