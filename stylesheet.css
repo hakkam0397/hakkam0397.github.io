@@ -52,7 +52,10 @@ body {
     border-bottom: 1px solid #ccc;
     width: 100% 
 } */
-
+#chartContainer {
+    width: 80%;
+    height: 80%;
+}
 #responsive-menu {
     list-style: none;
     padding: 0;
