@@ -4,5 +4,5 @@ document.getElementById('sleepDetails').addEventListener('click', function () {
 
     setTimeout(function () {
         window.location.href = 'sleepDetails.html'; // Replace with your actual new page URL
-    }, 1000); // Duration should match the CSS transition duration
+    }, 500); // Duration should match the CSS transition duration
 });
