@@ -44,7 +44,7 @@
                     <li><a href="index.html"><i class="fi-rr-dashboard-panel"></i> <span>Dashboard</span></a></li>
                     <li><a href="myCare.html"><i class="fi-rr-heart-partner-handshake"></i> <span>MyCare</span></a>
                     </li>
-                    <li><a href="consultation.html"><i class="fi-rr-doctor"></i> <span>Consult</span></a></li>
+                    <!-- <li><a href="consultation.html"><i class="fi-rr-doctor"></i> <span>Consult</span></a></li> -->
                     <li><a href="settings.html"><i class="fi-rr-settings-sliders"></i> <span>Settings</span></a>
                     </li>
                 </ul>
@@ -84,7 +84,7 @@
                 </div>
                 <div class="cell small-2">
                     <div class="row align-right">
-                        <button class="button-with-image" width="50" height="20">
+                        <button class="button-with-image" id="sleepDetails" width="50" height="20">
                             <img src="Resources/Images/nextArrow.png" alt="Button Image">
                         </button>
                     </div>
@@ -92,19 +92,19 @@
             </div>
             <div class="grid-x grid-margin-x">
                 <!-- <div class="cell small-9"> -->
-                    <div class="card-section">
-                        <div class="row">
-                            <canvas id="actigraphyPlot"></canvas>
-                        </div>
+                <div class="card-section">
+                    <div class="row">
+                        <canvas id="actigraphyPlot"></canvas>
                     </div>
+                </div>
                 <!-- </div> -->
                 <!-- <div class="cell small-3"> -->
-                    <div class="card-section">
-                        <div class="row">
-                            <h3>07hr 04min</h3>
-                            <h5>Today</h5>
-                        </div>
+                <div class="card-section">
+                    <div class="row">
+                        <h3>07hr 04min</h3>
+                        <h5>Today</h5>
                     </div>
+                </div>
                 <!-- </div> -->
             </div>
             <div class="frame">
@@ -216,6 +216,10 @@
     <!-- Custom JavaScript file for chart -->
     <script src="chart.js"></script>
     <!-- Include these files for charts-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha384-pH9onmIknIwyZsnMflLySzlbbFtgaGuaLHD/jvEx7XvoGZk71FYc8I6uivb2v/5u" crossorigin="anonymous"></script> -->
+    <script src="script.js"></script>
+    <!-- Include these files for using JSfunctions-->
 </body>
 
 </html>

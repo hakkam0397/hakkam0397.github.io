@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Data</title>
+    <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet'
+        type='text/css'>
+    <link rel="stylesheet" href="sleepDetails.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="text-center">
+            <h1>Sleep</h1>
+            <div class="button-group">
+                <button class="button active">Day</button>
+                <button class="button">Week</button>
+                <button class="button">Month</button>
+                <button class="button">Year</button>
+            </div>
+            <div class="grid-x grid-padding-x summary">
+                <div class="cell small-6">Today</div>
+                <div class="cell small-6 text-right">07 hr 04 min</div>
+            </div>
+        </header>
+        <section class="sleep-chart callout">
+            <div class="chart"></div>
+            <div class="grid-x grid-padding-x time">
+                <div class="cell small-6">11:00PM</div>
+                <div class="cell small-6 text-right">06:04PM</div>
+            </div>
+            <div class="grid-x grid-padding-x stages">
+                <div class="cell small-3 text-center">Awake</div>
+                <div class="cell small-3 text-center">Light</div>
+                <div class="cell small-3 text-center">REM</div>
+                <div class="cell small-3 text-center">Deep</div>
+            </div>
+        </section>
+        <section class="statistics callout">
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-6">Total Sleep</div>
+                <div class="cell small-6 text-right">7 hr 04 min</div>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-6">Time in bed</div>
+                <div class="cell small-6 text-right">10 hr 12 min</div>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-6">Sleep efficiency</div>
+                <div class="cell small-6 text-right">86%</div>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-6">Resting heart rate</div>
+                <div class="cell small-6 text-right">67 bpm</div>
+            </div>
+        </section>
+        <section class="sleep-contributors callout">
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-6">Total Sleep</div>
+                <div class="cell small-6 text-right">07 hr 04 min</div>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-6">Sleep efficiency</div>
+                <div class="cell small-6 text-right">86%</div>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-6">REM</div>
+                <div class="cell small-6 text-right">07 hr 04 min, 15%</div>
+            </div>
+        </section>
+        <section class="snooze-recordings callout">
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-6">Quiet</div>
+                <div class="cell small-6 text-right">04 hr 45 min</div>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-6">Snoring/Breathing</div>
+                <div class="cell small-6 text-right">01 hr 56 min</div>
+            </div>
+            <div class="grid-x grid-padding-x">
+                <div class="cell small-6">Awake</div>
+                <div class="cell small-6 text-right">00 hr 23 min</div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha384-pH9onmIknIwyZsnMflLySzlbbFtgaGuaLHD/jvEx7XvoGZk71FYc8I6uivb2v/5u" crossorigin="anonymous"></script> -->
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+
+</html>
