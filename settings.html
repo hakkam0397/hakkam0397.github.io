@@ -23,13 +23,14 @@
     <!-- ZURB FOUNDATION -->
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="settings.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet'
         type='text/css'>
     <!-- ZURB FOUNDATION -->
 
      <!-- Style -->
      <link rel="stylesheet" href="myCare.css">
+     <link rel="stylesheet" href="settings.css">
 </head>
 
 <body>
@@ -46,7 +47,6 @@
                         <li><a href="index.html"><i class="fi-rr-dashboard-panel"></i> <span>Dashboard</span></a></li>
                         <li><a href="myCare.html"><i class="fi-rr-heart-partner-handshake"></i> <span>MyCare</span></a>
                         </li>
-                        <!-- <li><a href="consultation.html"><i class="fi-rr-doctor"></i> <span>Consult</span></a></li> -->
                         <li><a href="settings.html"><i class="fi-rr-settings-sliders"></i> <span>Settings</span></a>
                         </li>
                     </ul>
@@ -55,20 +55,21 @@
         </div>
     </header>
 
-    <div class="page-wrapper"> <!-- Page wrapper to add padding -->
-        <h1 id="top-heading">Settings</h1>
+    <div class="grid-container"> <!-- Page wrapper to add padding -->
+        <h1>Settings</h1>
 
-        <!-- Edit Profile -->
+        <!--Profile -->
         <section class="grid-x portfile">
             <div class="cell medium-10 small-10 basicInfo">
                 <img id="img" src="Resources/Images/portrait.png" alt="display picture">
                 <div>
-                    <h2>John Doe</h2>
+                    <h4>John Doe</h4>
                     <p>+1 (675) 689-7654</p>
                 </div>
             </div>
+            <!-- Edit button -->
             <div class="cell medium-2 small-2 edit">
-                <p href="#" class="button">Edit</p>
+                <a href="#" class="button"><p>Edit</p></a>
             </div>
         </section>
         <!-- Setting options -->
@@ -81,12 +82,14 @@
                     </li>
                     <li><p>Support</p><img src="Resources/Images/nextArrow.png"></li>
                 </ul>
+                <!-- Loggout button -->
                 <div class="LogoutButton">
                     <a href="signup.html" class="button radius bordered shadow">Logout</a>
                 </div>
             </div>
             
         </section>
+        <!-- Version -->
         <div class="versionText">
             <p>App version 1.0</p>
         </div>

@@ -1,98 +1,11 @@
 /* Author: Baolong Zan*/
 
-body {
-    max-width: 100%;
-    margin: 0 auto;
-    color: white;
-    /* background: linear-gradient(135deg, #7f6baa 0%, #463174 35%, #22104b 100%); */
-}
-
-.portfile, .setting {
-    display: flex;
-    align-items: center;
-    border-radius: 8px;
-    border-color: #1F2628;
-    background-color: #1F2628;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.1)
-}
-
-.edit {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
-}
-
-.portfile img {
-    width: 80px;
-    height: 80px;
-    margin: 20px;
-}
-
-.setting {
-    margin-top: 12px;
-}
-.setting div {
-    width:100%;
-}
-.setting ul {
-    width:100%;
-    margin: 0;
-    display: flex;
-    align-items:flex-start;
-    flex-direction: column;
-}
-.setting li{
-    width:100%;
-    list-style-type:none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 4px 20px;
-}
-
-.setting li:hover{
-    background-color:#334246;
-}
-
-.setting img{
-    width: 22px;
-    height: 22px;
-}
-
-.setting button:hover {
-    background-color: #334246;
-}
-
-.button {
-    background-color: #1F2628;
-}
-
-.button:hover{
-    background-color: #2a393d;
-    color:#a4aeb1;
-}
-
-.setting a{
-    width: 200px;
-}
-
-.LogoutButton {
-    display: flex;
-    justify-content: center;
-
-}
-
-.basicInfo {
-    display: flex;
-    align-items: center;
-}
-
+/* add margin for container */
 .container{
     margin: 20px 0;
 }
 
+/* card section */
 .card {
     border-radius: 8px;
     margin: 0;
@@ -102,55 +15,14 @@ body {
     color:rgba(255, 255, 255, 0.5);
 }
 
+.card img {
+    width: 80px;
+    height: 80px;
+}
+
 .versionText {
-    margin-top: 20px;
+    margin-top: 470px;
     text-align: center;
     color: rgba(255, 255, 255, 0.5)
 }
 
-
-.horizontal.leftnav {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-}
-
-.horizontal.leftnav li {
-    display: inline;
-}
-
-.horizontal.leftnav a {
-    text-decoration: none;
-    color: white;
-    /* leftnav button color */
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    border-radius: 5px;
-}
-
-.horizontal.leftnav a:hover {
-    background-color: #22104b;
-    color: white;
-    /* Change to a visible color on hover */
-    /
-}
-
-.horizontal.leftnav a:hover i {
-    background-color: #22104b;
-    color: white;
-    /* Change to a visible color on hover */
-}
-
-.horizontal.leftnav a span {
-    margin-left: 5px;
-}
-
-.horizontal.leftnav a i {
-    color: #22104b;
-    /* Icon color */
-}
