@@ -1,108 +1,251 @@
-<!-- Author: Michelle Fernandes *-->
+<!-- Author: Baolong Zan *-->
 <!DOCTYPE html>
+
 <html>
+    <head>
+        <title>SnoozeCare</title>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <!-- Google Fonts-->
 
-<head>
-    <title>SnoozeCare</title>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Flat Icons-->
+        <link href="Resources/icons/css/uicons-regular-rounded.css" rel="stylesheet">
+        <!-- Flat Icons-->
 
-    <!-- Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <!-- Google Fonts-->
+        <!-- ZURB FOUNDATION -->
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet'
+            type='text/css'>
+        <!-- ZURB FOUNDATION -->
 
-    <!-- Flat Icons-->
-    <link href="Resources/icons/css/uicons-regular-rounded.css" rel="stylesheet">
-    <!-- Flat Icons-->
-
-    <!-- ZURB FOUNDATION -->
-    <link rel="stylesheet" href="css/foundation.css">
-    <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet'
-        type='text/css'>
-    <!-- ZURB FOUNDATION -->
-
-    <!--Main CSS-->
-    <link rel="stylesheet" href="myCare.css">
-    <!--Main CSS-->
-</head>
-
-<body>
-    <header>
-        <!-- Navigation Bar-->
+        <!-- Style -->
+        <link rel="stylesheet" href="myCare.css">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
         <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
             <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
             <div class="title-bar-title">Menu</div>
-          </div>
-          
-          <div class="top-bar" id="responsive-menu">
+        </div>
+            
+        <div class="top-bar" id="responsive-menu">
             <div class="top-bar-left">
-              <ul class="dropdown menu" data-dropdown-menu>
+                <ul class="dropdown menu" data-dropdown-menu>
                 <li><a href="index.html"><img src="Resources/Images/SnoozeCare_Logo_trnprnt.png" alt="Logo"
                     style="height: 24px; width: auto;"></a></li>
                 <li><a href="index.html"><i class="fi-rr-dashboard-panel"></i> <span>Dashboard</span></a></li>
                 <li><a href="myCare.html"><i class="fi-rr-heart-partner-handshake"></i> <span>MyCare</span></a></li>
                 <li><a href="consultation.html"><i class="fi-rr-doctor"></i> <span>Consult</span></a></li>
                 <li><a href="settings.html"><i class="fi-rr-settings-sliders"></i> <span>Settings</span></a></li>
-              </ul>
+                </ul>
             </div>
-            </div>
-    </header>
-
-    <br>
-
-    <!-- Left Menu -->
-    <div class="grid-x">
-            <div class="card" style="width: 200px;">
-                <div class="card-divider">
-                </div>
-                <div class="cell large-3 medium-2 small-2">
-                    <p><img src="Resources/Images/dp-s.jpg" width="200px" height="200px" alt="user-image"></p>
-                    <p>UserName</p>
-                    <ul>
-                    <li><a href="personaldata.html"> Personal Data</a></li>
-                    <li><a href="myplaylist.html"> My PlayList</a></li>
-                    <li><a href="consultation.html"> Medical Records</a></li>
-                    </ul>
-                </div>
-            </div>
-
-    <!-- Personal Data -->
-        <div class="cell large-9 medium-10 small-10">
-            <dl>
-                <dt>Name:</dt>
-                <dd>Mary Jane Watson</dd>
-                <br>
-                <dt>Email Id:</dt>
-                <dd>maryjanewatson@gmail.com</dd>
-                <br>
-                <dt>Contact Number</dt>
-                <dd>+1 (675) 689-7654</dd>
-                <br>
-                <dt>Age</dt>
-                <dd>42</dd>
-                <br>
-                <dt>Saved Payment Modes</dt>
-                <dd><a href=https://www.cibconline.cibc.com/ebm-resources/online-banking/client/index.html#/auth/signon>CIBC Credit Card</a></dd>
-                <br>
-                <a href="editprofile.html" class="small secondary button">Edit Profile</a>
-                
-            </dl>
         </div>
-    </div>
-    
 
-    <!-- ZURB FOUNDATION JS -->
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-    <!-- ZURB FOUNDATION JS-->
+        <!-- Content -->
+        <section class="grid-container mainContent">
+            <!-- Music list -->
+            <section class="grid-x grid-margin-x container">
+                <!-- Tittle -->
+                <div class="cell grid-x medium-12">
+                    <h4>Music</h4>
+                </div>
+                <!-- Tittle -->
+                <!-- Music Cards -->
+                <div class="grid-container"> 
+                    <div class="grid-x grid-margin-x grid-margin-y small-up-1 medium-up-2">
+                        <div class="cell">
+                            <div class="card">
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <div class="thumbnail">
+                                            <img src="Resources/Images/MusicCover/music 1.png" width="120" height="120">
+                                        </div>
+                                    </div>
+                                    <div class="media-main-section align-self-middle">
+                                        <h3>Music Name</h3>
+                                        <p>The music is suitable to you now!</p>
+                                        <p>8 min</p>
+                                    </div>
+                                    <div class="media-object-section align-self-middle">
+                                        <button type="button" class="button small expanded">Listen now!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="card">
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <div class="thumbnail">
+                                            <img src="Resources/Images/MusicCover/music 2.png" width="120" height="120">
+                                        </div>
+                                    </div>
+                                    <div class="media-main-section align-self-middle">
+                                        <h3>Music Name</h3>
+                                        <p>The music is suitable to you now!</p>
+                                        <p>8 min</p>
+                                    </div>
+                                    <div class="media-object-section align-self-middle">
+                                        <button type="button" class="button small expanded">Listen now!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="card">
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <div class="thumbnail">
+                                            <img src="Resources/Images/MusicCover/music 3.png" width="120" height="120">
+                                        </div>
+                                    </div>
+                                    <div class="media-main-section align-self-middle">
+                                        <h3>Music Name</h3>
+                                        <p>The music is suitable to you now!</p>
+                                        <p>8 min</p>
+                                    </div>
+                                    <div class="media-object-section align-self-middle">
+                                        <button type="button" class="button small expanded">Listen now!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="card">
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <div class="thumbnail">
+                                            <img src="Resources/Images/MusicCover/music 4.png" width="120" height="120">
+                                        </div>
+                                    </div>
+                                    <div class="media-main-section align-self-middle">
+                                        <h3>Music Name</h3>
+                                        <p>The music is suitable to you now!</p>
+                                        <p>8 min</p>
+                                    </div>
+                                    <div class="media-object-section align-self-middle">
+                                        <button type="button" class="button small expanded">Listen now!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div> 
+                
+            </section>
+            <!-- Music list -->
+            <!-- Article list -->
+            <section class="grid-x grid-margin-x container">
+                <!-- Tittle -->
+                <div class="cell grid-x medium-12">
+                    <h4>Article</h4>
+                </div>
+                <!-- Tittle -->
+                <!-- Article Cards -->
+                <div class="grid-container"> 
+                    <div class="grid-x grid-margin-x grid-margin-y small-up-1 medium-up-2">
+                        <div class="cell ">
+                            <div class="card">
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <div class="thumbnail">
+                                            <img src="Resources/Images/ArticleCover/article 1.png" width="120" height="120">
+                                        </div>
+                                    </div>
+                                    <div class="media-main-section align-self-middle">
+                                        <h3>Article Name</h3>
+                                        <p>The article is suitable to you now!</p>
+                                        <p>8 min</p>
+                                    </div>
+                                    <div class="media-object-section align-self-middle">
+                                        <button type="button" class="button small expanded">Read now!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell medium-6">
+                            <div class="card">
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <div class="thumbnail">
+                                            <img src="Resources/Images/ArticleCover/article 2.png" width="120" height="120">
+                                        </div>
+                                    </div>
+                                    <div class="media-main-section align-self-middle">
+                                        <h3>Article Name</h3>
+                                        <p>The article is suitable to you now!</p>
+                                        <p>8 min</p>
+                                    </div>
+                                    <div class="media-object-section align-self-middle">
+                                        <button type="button" class="button small expanded">Read now!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell medium-6">
+                            <div class="card">
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <div class="thumbnail">
+                                            <img src="Resources/Images/ArticleCover/article 3.png" width="120" height="120">
+                                        </div>
+                                    </div>
+                                    <div class="media-main-section align-self-middle">
+                                        <h3>Article Name</h3>
+                                        <p>The article is suitable to you now!</p>
+                                        <p>8 min</p>
+                                    </div>
+                                    <div class="media-object-section align-self-middle">
+                                        <button type="button" class="button small expanded">Read now!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell medium-6">
+                            <div class="card">
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <div class="thumbnail">
+                                            <img src="Resources/Images/ArticleCover/article 4.png" width="120" height="120">
+                                        </div>
+                                    </div>
+                                    <div class="media-main-section align-self-middle">
+                                        <h3>Article Name</h3>
+                                        <p>The article is suitable to you now!</p>
+                                        <p>8 min</p>
+                                    </div>
+                                    <div class="media-object-section align-self-middle">
+                                        <button type="button" class="button small expanded">Read now!</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div> 
+                
+            </section>
+            <!-- Article list -->
+        </section>
+        <!-- Content -->
 
-</body>
 
+        <!-- ZURB FOUNDATION JS -->
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/app.js"></script>
+        <!-- ZURB FOUNDATION JS-->
+
+    </body>
 </html>

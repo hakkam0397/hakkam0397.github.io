@@ -1,4 +1,4 @@
-<!-- Author: Michelle Fernandes *-->
+/* Author: Baolong */
 
 body {
     max-width: 100%;
@@ -8,25 +8,16 @@ body {
     /* background: linear-gradient(135deg, #7f6baa 0%, #463174 35%, #22104b 100%); */
 }
 
-.card {
-    border-radius: 8px;
-    border-color: #22104b7d;
-    background-color: #22104b7d;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* border: 1px solid #ccc; */
-    color: white;
-    margin: 0 auto;
-    float: none;
-    display: flex;
-    width: 100%;
-    text-align: left;
-    padding: 20px;
-    text-decoration: none;
-
+.container{
+    margin: 20px 0;
 }
 
-.content{
-    margin-top: 24px;
+.card {
+    border-radius: 8px;
+}
+
+.card p {
+    color:rgba(255, 255, 255, 0.5);
 }
 
 
