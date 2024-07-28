@@ -1,16 +1,18 @@
+/* Author: Samruddhi Deolekar */
+
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    margin: 0;
-    padding: 0;
+    max-width: 100%;
+    margin: 0 auto;
+    color: white;
+    background: linear-gradient(#293339, #0E1313);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   }
   
   .container {
-    max-width: 600px;
+    max-width: 1280px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #1F2628;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
@@ -21,11 +23,11 @@ body {
   }
   
   .notification {
-    background-color: #f0f8ff;
-    border-left: 5px solid #0078d4;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
     padding: 15px;
     margin-bottom: 15px;
-    border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
@@ -41,6 +43,23 @@ body {
   .notification small {
     display: block;
     margin-top: 10px;
-    color: #666;
+    color: #aaa;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0078d4;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
   }
   
