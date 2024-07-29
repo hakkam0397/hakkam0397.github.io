@@ -57,14 +57,6 @@ body {
     height: 80%;
 }
 
-#responsive-menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: left;
-}
-
 /* #responsive-menu li {
     display: inline;
 } */
@@ -87,11 +79,19 @@ body {
     visibility: visible;
 }
 
+#responsive-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+}
+
 #responsive-menu a {
     text-decoration: none;
     color: white;
     background-color: #1F2628;
-    
+
     /* Menu button color */
     padding: 10px 20px;
     display: flex;
