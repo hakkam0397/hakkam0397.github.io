@@ -30,30 +30,35 @@
 </head>
 
 <body>
-    <header>
-
-        <div class="page-wrapper"> <!-- Page wrapper to add padding -->
-            <div class="grid-x grid-margin-x">
-                <div class="cell">
-                    <img src="Resources/Images/Logo.png" alt="Logo">
+    <div class="page-wrapper">
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x align-center-middle text-center full-height">
+                <div class="cell small-12 medium-8 large-6" id="mainCell">
+                    <img src="Resources/Images/Logo2.png" alt="Logo" class="logo">
                     <h1 id="top-heading">Let’s get started!</h1>
                     <p>Let’s create your account</p>
 
                     <!-- Sign Up Options -->
-                    <p><a href="https://www.google.com/" class="hollow button">Sign in with Google</a><br />
-                        <a href="https://www.apple.com/" class="hollow button">Sign in with Apple</a></br>
-                        <a href="https://www.facebook.com/" class="hollow button">Sign in with Facebook</a></br>
-
-
-                    <p><a href="verification.html" class="button">Sign in with Phone</a></p>
-
-                    <p class="text-center">By signing in, you agree to our <br><a href="terms.html">Terms of Service</a>
-                        and <a href="privacy.html">Privacy Policy</a></p>
+                    <div class="grid-x grid-padding-x align-center">
+                        <div class="cell small-12">
+                            <a href="https://www.google.com/" class="hollow button expanded">Sign in with Google</a>
+                        </div>
+                        <div class="cell small-12">
+                            <a href="https://www.apple.com/" class="hollow button expanded">Sign in with Apple</a>
+                        </div>
+                        <div class="cell small-12">
+                            <a href="https://www.facebook.com/" class="hollow button expanded">Sign in with Facebook</a>
+                        </div>
+                        <div class="cell small-12">
+                            <a href="verification.html" class="hollow button expanded">Sign in with Phone</a>
+                        </div>
+                    </div>
+                    <p class="text-center">By signing in, you agree to our <br><a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a></p>
                     <!-- Sign Up Options -->
                 </div>
             </div>
         </div>
-    </header>
+
 
     <!-- ZURB FOUNDATION JS -->
     <script src="js/vendor/jquery.js"></script>

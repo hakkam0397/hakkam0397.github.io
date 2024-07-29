@@ -1,13 +1,4 @@
-/* Author: Dhruv Mehta */
-
-/* Body */
-/* html,
-body {
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-} */
-
+/* stylesheet.css */
 
 body {
     max-width: 100%;
@@ -15,316 +6,63 @@ body {
     color: white;
     background: linear-gradient(#293339, #0E1313);
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    /* display: flex;
-    align-items: center;
-    /* Center content vertically */
-    /* flex-direction: column; */ 
 }
-
-/* Body */
 
 .page-wrapper {
     display: flex;
-    justify-content: left;
-    align-items: left;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0 20px;
-}
-
-/* Page Wrapper 
-.page-wrapper {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-}*/
-
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-    max-height: 340px;
-    display: block;
-    margin: 0;
-    /* Remove any margin */
-    padding: 0;
-    /* Remove any padding */
+    min-height: 100vh;
 }
 
-/* Highlight */
-::selection {
-    color: #22104b;
-    background: white;
+.full-height {
+    min-height: 100vh;
 }
 
-/* Highlight */
-
-/* Headings */
-#top-heading {
-    font-size: 24px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    padding-left: 20px;
-    padding-top: 20px;
-    max-width: 100%;
-}
-
-h2 {
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    padding: 20px 20px 20px 20px;
-}
-
-.card {
+#mainCell {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0);
+    /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); */
     border-radius: 8px;
-    border-color: #1F2628;
-    background-color: #1F2628;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* border: 1px solid #ccc; */
-    color: white;
-    /* margin: 0px 0px 0px 0px; */
-    float: none;
-    display: flex;
-    width: 100%;
-    text-align: left;
-    padding: 10px;
 }
 
-h3 {
-    font-size: 14px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    padding: 20px 20px 20px 20px;
+.logo {
+    margin-bottom: 1rem;
+    padding: 50px;
 }
 
-/* Headings */
+#top-heading {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
 
 p {
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    padding-left: 20px;
+    margin-bottom: 1rem;
 }
 
-/* Navigation */
-nav {
-    background-color: white;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-    width: 100%
-}
-
-.horizontal.menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: left;
-}
-
-.horizontal.menu li {
-    display: inline;
-}
-
-.horizontal.menu a {
-    text-decoration: none;
-    color: #22104b;
-    /* Menu button color */
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    border-radius: 5px;
-}
-
-.horizontal.menu a:hover {
-    background-color: #22104b;
+a.hollow.button.expanded,
+a.button.expanded {
+    background-color: #293339;
+    /* border: #EBEBEB; */
     color: white;
-    /* Change to a visible color on hover */
-    /
-}
-
-.horizontal.menu a:hover i {
-    background-color: #22104b;
-    color: white;
-    /* Change to a visible color on hover */
-}
-
-.horizontal.menu a span {
-    margin-left: 5px;
-}
-
-.horizontal.menu a i {
-    color: #22104b;
-    /* Icon color */
-}
-
-ul.horizontal.menu li:first-child {
-    background-color: white;
-    color: white;
-}
-
-ul.horizontal.menu li:first-child:hover a {
-    color: white;
-    background-color: white;
-}
-
-/* Navigation */
-
-/* Primary Button */
-.button {
-    background-color: white;
-    border: none;
-    color: #22104b;
     padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 4px;
+    margin: 10px 2px;
     border-radius: 8px;
-    width: 300px;
-}
-
-.button:hover {
-    background-color: #1F2628;
-    color: white;
-}
-
-.button:active {
-    background-color: white;
-    color: #22104b;
-}
-
-/* Primary Button */
-
-.text-center {
-    width: 300px;
-}
-
-a {
-    color: white;
-}
-
-/* Top Padding */
-p {
-    padding-top: 8px;
-}
-
-/* Top Padding */
-
-/* Outline Button */
-.hollow.button {
     border-color: #363D3F;
-    background-color: #1F2628;
-    color: white;
-    width: 300px;
-    font-size: 16px;
+    border-width: 1px;
+    box-shadow: 0px 2px 2px 0px #363D3F;
+    font-weight: bold;
 }
 
-.hollow.button:hover {
-    background-color: white;
-    border-color: transparent;
-    color: #222222;
+.text-center a {
+    text-decoration: underline;
 }
 
-/* Outline Button */
-
-.frame {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 16px;
-    position: relative;
-    background-color: #ffffff0a;
-    border-radius: 10px;
-    border: 1px solid;
-    border-color: #363d3f;
-    margin: 5px 0px;
-}
-
-.frame .div {
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    display: inline-flex;
-    position: relative;
-    flex: 0 0 auto;
-}
-
-.frame .rectangle {
-    position: relative;
-    width: 10px;
-    height: 10px;
-    background-color: #ffffff;
-    border-radius: 2px;
-}
-
-.frame .text-wrapper {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: var(--s-semibold-font-family);
-    font-weight: var(--s-semibold-font-weight);
-    color: #ffffff;
-    font-size: var(--s-semibold-font-size);
-    letter-spacing: var(--s-semibold-letter-spacing);
-    line-height: var(--s-semibold-line-height);
-    white-space: nowrap;
-    font-style: var(--s-semibold-font-style);
-}
-
-.frame .div-2 {
-    align-items: center;
-    gap: 8px;
-    display: inline-flex;
-    position: relative;
-    flex: 0 0 auto;
-}
-
-.frame .div-3 {
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 2px;
-    display: inline-flex;
-    position: relative;
-    flex: 0 0 auto;
-}
-
-.frame .text-wrapper-2 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: var(--m-bold-font-family);
-    font-weight: var(--m-bold-font-weight);
-    color: #ffffff;
-    font-size: var(--m-bold-font-size);
-    text-align: center;
-    letter-spacing: var(--m-bold-letter-spacing);
-    line-height: var(--m-bold-line-height);
-    white-space: nowrap;
-    font-style: var(--m-bold-font-style);
-}
-
-.frame .text-wrapper-3 {
-    position: relative;
-    width: fit-content;
-    font-family: var(--XS-semibold-font-family);
-    font-weight: var(--XS-semibold-font-weight);
-    color: #ffffffa3;
-    font-size: var(--XS-semibold-font-size);
-    letter-spacing: var(--XS-semibold-letter-spacing);
-    line-height: var(--XS-semibold-line-height);
-    white-space: nowrap;
-    font-style: var(--XS-semibold-font-style);
-    font-size: 12px;
-}
-
-.frame .bxs-up-arrow {
-    position: relative;
-    width: 20px;
-    height: 20px;
+.text-center a:hover {
+    text-decoration: none;
 }
