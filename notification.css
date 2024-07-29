@@ -1,100 +1,174 @@
-/* Author: Samruddhi Deolekar */
-
 body {
-    max-width: 100%;
-    margin: 0 auto;
-    color: white;
-    background: linear-gradient(#293339, #0E1313);
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  }
-  
-  .container {
-    max-width: 100%;
-    margin: 20px auto;
-    padding: 20px;
-  }
-  
-  h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
+  color: white;
+  background: linear-gradient(#293339, #0E1313);
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.grid-container {
+  padding-top: 16px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.notification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272f30;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 16px; 
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.back-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: #0078d4;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  color: #005bb5;
+}
+
+.notification-content {
+  flex-grow: 1;
+}
+
+.notification h5 {
+  font-size: 21px; 
+  font-weight: 800;
+  margin: 0 0 10px 0; 
+}
+
+.notification p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.notification small {
+  display: block;
+  margin-top: 10px; 
+  color: #aaa;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.button {
+  padding: 8px 18px;
+  margin-top: 10px;
+  background-color: white;
+  color: #363D3F;
+  text-align: center;
+  border-radius: 5px; 
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #3BB85E;
+  color: white;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  background: transparent;
+  border: none;
+  font-size: 18px; 
+  color: #fff;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: #252525;
+  border-radius: 25px; 
+  color: rgb(255, 255, 255);
+}
+
+.title-bar, .top-bar, .top-bar ul {
+  background-color: #1F2628;
+}
+
+.title-bar-title {
+  color: white;
+}
+
+.menu-icon::after {
+  background: white;
+  box-shadow: 0 7px 0 white, 0 14px 0 white;
+}
+
+.top-bar a {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.top-bar a:hover {
+  background-color: #2A3438;
+}
+
+.top-bar a i {
+  color: white;
+}
+
+.sticky-topbar {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) { 
   .notification {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .button-container {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .button {
+    margin-top: 16px; 
+  }
+}
+
+@media screen and (max-width: 639px) { 
+  .title-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #272f30;
-    color: #fff;
-    border-radius: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 15px;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: relative;
+    padding: 8px; 
+  }
+
+  .vertical.menu {
+    background-color: #1F2628;
   }
   
-  .notification-content {
-    flex-grow: 1;
-  }
-  
-  .notification h5 {
-    font-size: 18px;
-    margin: 0 0 10px 0;
-  }
-  
-  .notification p {
-    margin: 0;
-  }
-  
-  .notification small {
-    display: block;
-    margin-top: 10px;
-    color: #aaa;
-  }
-  
-  .button {
-    padding: 8px 18px;
-    margin-top: auto;
-    background-color: white;
-    color: #363D3F;
-    text-align: center;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-  }
-  
-  .button:hover {
-    background-color: #3BB85E;
+  .vertical.menu a {
     color: white;
-    filter: drop-shadow(#326b43 0.2rem 0.2rem 10px);
+    padding: 12px 16px; 
   }
   
-  .close-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: transparent;
-    border: none;
-    font-size: 18px;
-    color: #fff;
-    cursor: pointer;
+  .vertical.menu a:hover {
+    background-color: #2A3438;
   }
-
-  .close-btn:hover {
-    background-color: #252525;
-    border-radius: 25px;
-    color: rgb(255, 255, 255);
-    filter: drop-shadow(#565656 0.1rem 0.1rem 5px);
-  }
-
-  @media (max-width: 800px) {
-    .notification {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .button {
-      margin-top: 15px;
-    }
-  }
-  
+}
