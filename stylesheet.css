@@ -459,7 +459,7 @@ body {
 /* Media queries for responsiveness */
 @media (max-width: 1200px) {
     .button-with-image img {
-        width: 80px;
+        width: 60px;
         height: auto;
         /* Adjust size for medium screens */
     }
