@@ -19,11 +19,20 @@ body {
 
 .back-button,
 .save-button {
-    background: none;
-    border: none;
-    color: #ffffff;
+    background-color: #293339;
+    /* border: #EBEBEB; */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     font-size: 16px;
-    cursor: pointer;
+    margin: 4px 2px;
+    border-radius: 8px;
+    border-color: #363D3F;
+    border-width: 1px;
+    box-shadow: 0px 2px 2px 0px #363D3F;
+    font-weight: bold;
 }
 
 .profile-pic-container {
@@ -73,6 +82,8 @@ body {
 
 .form-group {
     margin-bottom: 20px;
+    color: #363D3F;
+    border: #ffffff;
 }
 
 label {
