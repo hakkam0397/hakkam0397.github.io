@@ -1,9 +1,9 @@
-<!-- Author: Dhruv Mehta *-->
+<!-- Author: Dhruv Mehta -->
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>OTP</title>
+    <title>OTP Verification</title>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,22 +11,16 @@
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <!-- Flat Icons-->
     <link href="Resources/icons/css/uicons-regular-rounded.css" rel="stylesheet">
-    <!-- Flat Icons-->
 
     <!-- ZURB FOUNDATION -->
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="otp.css">
-    <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet'
-        type='text/css'>
-    <!-- ZURB FOUNDATION -->
+    <link href='http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -41,27 +35,41 @@
         <!-- Back -->
     </header>
 
-    <div class="page-wrapper"> <!-- Page wrapper to add padding -->
-
+    <div class="page-wrapper">
         <!-- OTP -->
         <div class="grid-x grid-margin-x">
-            <div class="cell small-6">
+            <div class="cell small-12 medium-6">
                 <h1 id="top-heading">Enter OTP</h1>
-                <p>Enter OTP recieved on your phone</p>
+                <p>Enter OTP received on your phone</p>
 
-                <div class="row">
-                    <div class="six columns">
-                        <form>
-                            <label>OTP</label>
-                            <input type="text" placeholder="Enter 6 digit OTP">
+                <form id="otp-form">
+                    <label for="otp-input">OTP</label>
+                    <input type="text" id="otp-input" style="width: 300px;" placeholder="Enter 6 digit OTP" maxlength="6" pattern="\d{6}" required>
 
-                            <p><a href="qna.html" class="button">Continue</a></p>
-                    </div>
-                </div>
+                    <p><button type="submit" href="qna.html" class="button">Continue</button></p>
+                </form>
             </div>
         </div>
         <!-- OTP -->
+    </div>
 
+    <!-- OTP verification -->
+     <script>
+        document.getElementById('otp-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const otpInput = document.getElementById('otp-input');
+            const otp = otpInput.value;
+            const validOtp = '123456'; // Set your valid OTP here
+
+            if (otp === validOtp) {
+                window.location.href = 'qna.html'; // Redirect to the next page
+            } else {
+                alert('Please enter a valid 6-digit OTP');
+                otpInput.focus();
+            }
+        });
+    </script>
+    <!-- OTP verification -->
 </body>
 
 </html>

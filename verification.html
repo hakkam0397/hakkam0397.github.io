@@ -45,20 +45,39 @@
         <div class="cell small-6">
             <div class="page-wrapper"> <!-- Page wrapper to add padding -->
                 <h1 id="top-heading">Provide your mobile number</h1>
-                <p>You will get a OTP on your phone to confirm your identity</p>
+                <p>You will get an OTP on your phone to confirm your identity</p>
 
                 <div class="row">
                     <div class="six columns">
-                        <form>
-                            <label>Phone number</label>
-                            <input type="text" placeholder="Phone number" />
+                        <form id="phone-form">
+                            <label for="phone-input">Phone number</label>
+                            <input type="tel" id="phone-input" placeholder="Phone number" maxlength="10" pattern="\d{10}" required />
 
-                            <p><a href="otp.html" class="button">Continue</a></p>
+                            <p><button type="submit" class="button">Continue</button></p>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Number verification -->
+    <script>
+        document.getElementById('phone-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const phoneInput = document.getElementById('phone-input');
+            const phoneNumber = phoneInput.value;
+
+            if (/^\d{10}$/.test(phoneNumber)) {
+                // Valid 10-digit phone number
+                window.location.href = 'otp.html';
+            } else {
+                alert('Please enter a valid 10-digit phone number');
+                phoneInput.focus();
+            }
+        });
+    </script>
+    <!-- Number verification -->
 </body>
 
 </html>
