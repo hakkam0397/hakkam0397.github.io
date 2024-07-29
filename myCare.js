@@ -1,11 +1,29 @@
 document.addEventListener("DOMContentLoaded", function() {
     const cardData = [
-        { imgSrc: "Resources/Images/MusicCover/music 1.png", title: "Calm your nerves" },
-        { imgSrc: "Resources/Images/MusicCover/music 2.png", title: "Sleep Music" },
-        { imgSrc: "Resources/Images/MusicCover/music 3.png", title: "Calm your nerves" },
-        { imgSrc: "Resources/Images/MusicCover/music 4.png", title: "Calm your nerves" },
-        { imgSrc: "Resources/Images/MusicCover/music 2.png", title: "Calm your nerves" },
-        { imgSrc: "Resources/Images/MusicCover/music 1.png", title: "Calm your nerves" }
+        { 
+            imgSrc: "Resources/Images/MusicCover/music 1.png", 
+            title: "Calm your nerves" 
+        },
+        { 
+            imgSrc: "Resources/Images/MusicCover/music 2.png", 
+            title: "Sleep Music" 
+        },
+        { 
+            imgSrc: "Resources/Images/MusicCover/music 3.png", 
+            title: "Calm your nerves" 
+        },
+        { 
+            imgSrc: "Resources/Images/MusicCover/music 4.png", 
+            title: "Calm your nerves" 
+        },
+        { 
+            imgSrc: "Resources/Images/MusicCover/music 2.png", 
+            title: "Calm your nerves" 
+        },
+        { 
+            imgSrc: "Resources/Images/MusicCover/music 1.png", 
+            title: "Calm your nerves" 
+        }
     ];
 
     const cardContainer = document.getElementById('card-container');
@@ -27,10 +45,30 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener("DOMContentLoaded", function() {
     const articleData = [
-        { imgSrc: "Resources/Images/ArticleCover/article 1.png", title: "Calm your nerves", content: "Sometimes, the pace of modern life barely gives you time to stop...", date: "21st April, 12:42 Am . 6 min read" },
-        { imgSrc: "Resources/Images/ArticleCover/article 2.png", title: "Calm your nerves", content: "Sometimes, the pace of modern life barely gives you time to stop...", date: "21st April, 12:42 Am . 6 min read" },
-        { imgSrc: "Resources/Images/ArticleCover/article 3.png", title: "Calm your nerves", content: "Sometimes, the pace of modern life barely gives you time to stop...", date: "21st April, 12:42 Am . 6 min read" },
-        { imgSrc: "Resources/Images/ArticleCover/article 4.png", title: "Calm your nerves", content: "Sometimes, the pace of modern life barely gives you time to stop...", date: "21st April, 12:42 Am . 6 min read" }
+        { 
+            imgSrc: "Resources/Images/ArticleCover/article 1.png", 
+            title: "Calm your nerves", 
+            content: "Sometimes, the pace of modern life barely gives you time to stop...", 
+            date: "21st April, 12:42 Am . 6 min read" 
+        },
+        { 
+            imgSrc: "Resources/Images/ArticleCover/article 2.png", 
+            title: "Calm your nerves", 
+            content: "Sometimes, the pace of modern life barely gives you time to stop...", 
+            date: "21st April, 12:42 Am . 6 min read" 
+        },
+        { 
+            imgSrc: "Resources/Images/ArticleCover/article 3.png", 
+            title: "Calm your nerves", 
+            content: "Sometimes, the pace of modern life barely gives you time to stop...", 
+            date: "21st April, 12:42 Am . 6 min read" 
+        },
+        { 
+            imgSrc: "Resources/Images/ArticleCover/article 4.png", 
+            title: "Calm your nerves", 
+            content: "Sometimes, the pace of modern life barely gives you time to stop...", 
+            date: "21st April, 12:42 Am . 6 min read" 
+        }
     ];
 
     const articleContainer = document.getElementById('article-container');
