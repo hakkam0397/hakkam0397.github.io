@@ -186,7 +186,7 @@ body {
 
 .button-with-image img {
     margin-right: 10px;
-} 
+}
 
 .button:hover {
     background-color: #293339;
@@ -457,18 +457,21 @@ body {
 /* Media queries for responsiveness */
 @media (max-width: 1200px) {
     .button-with-image img {
-        width: 80px; /* Adjust size for medium screens */
+        width: 80px;
+        /* Adjust size for medium screens */
     }
 }
 
 @media (max-width: 768px) {
     .button-with-image img {
-        width: 60px; /* Adjust size for small screens */
+        width: 60px;
+        /* Adjust size for small screens */
     }
 }
 
 @media (max-width: 480px) {
     .button-with-image img {
-        width: 40px; /* Adjust size for extra small screens */
+        width: 40px;
+        /* Adjust size for extra small screens */
     }
 }
