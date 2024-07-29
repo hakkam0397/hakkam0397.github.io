@@ -63,6 +63,7 @@ body {
     padding: 5px;
     font-size: 12px;
 }
+
 .button-with-image {
     display: flex;
     align-items: center;
@@ -77,7 +78,7 @@ body {
     /* Remove underline */
     display: inline-block;
     /* Get it to sit inline with text */
-   
+
 }
 
 .form-group {
@@ -99,4 +100,47 @@ input[type="text"] {
     border-radius: 5px;
     background-color: #2a2a2a;
     color: #ffffff;
+}
+
+#responsive-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+}
+
+#responsive-menu a {
+    text-decoration: none;
+    color: white;
+    background-color: #1F2628;
+
+    /* Menu button color */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    /* border-radius: 5px; */
+}
+
+#responsive-menu a:hover {
+    background-color: #1F2628;
+    color: white;
+    /* Change to a visible color on hover */
+}
+
+#responsive-menu a:hover i {
+    background-color: #1F2628;
+    color: white;
+    /* Change to a visible color on hover */
+}
+
+#responsive-menu a span {
+    margin-left: 5px;
+}
+
+#responsive-menu a i {
+    color: white;
+    /* Icon color */
 }
