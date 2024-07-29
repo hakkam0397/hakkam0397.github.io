@@ -1,3 +1,5 @@
+/* Author: Samruddhi Deolekar */
+
 document.addEventListener("DOMContentLoaded", function() {
     const notifications = [
       {
