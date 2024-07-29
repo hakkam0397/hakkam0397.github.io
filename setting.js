@@ -1,19 +1,19 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const settingsData = [
-        { 
-            text: "Help", 
-            link: "#", 
-            imageSrc: "Resources/Images/nextArrow.png" 
+        {
+            text: "Help",
+            link: "#",
+            imageSrc: "Resources/Images/nextArrow.png"
         },
-        { 
-            text: "Policy", 
-            link: "privacy.html", 
-            imageSrc: "Resources/Images/nextArrow.png" 
+        {
+            text: "Policy",
+            link: "privacy.html",
+            imageSrc: "Resources/Images/nextArrow.png"
         },
-        { 
-            text: "Support", 
-            link: "#", 
-            imageSrc: "Resources/Images/nextArrow.png" 
+        {
+            text: "Support",
+            link: "#",
+            imageSrc: "Resources/Images/nextArrow.png"
         }
     ];
 
