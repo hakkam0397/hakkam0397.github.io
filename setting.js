@@ -40,6 +40,6 @@ document.getElementById('editProfile').addEventListener('click', function () {
     overlay.classList.add('active');
 
     setTimeout(function () {
-        window.location.href = 'editprofile.html'; // Replace with your actual new page URL
+        window.location.href = 'editProfile.html'; // Replace with your actual new page URL
     }, 500); // Duration should match the CSS transition duration
 });
