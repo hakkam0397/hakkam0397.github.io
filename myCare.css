@@ -8,7 +8,6 @@
 /* card section */
 .card {
     border-radius: 8px;
-    margin: 0;
 }
 
 .card p {
@@ -16,8 +15,8 @@
 }
 
 .card img {
-    width: 80px;
-    height: 80px;
+    width: 100%;
+    height: auto;
 }
 
 .versionText {
@@ -26,3 +25,15 @@
     color: rgba(255, 255, 255, 0.5)
 }
 
+.card-section{
+    padding:4px;
+}
+
+.article img{
+    width: 80px;
+    height:80px;
+}
+
+p {
+    margin: 0;
+}
