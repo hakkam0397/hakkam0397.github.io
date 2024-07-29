@@ -91,11 +91,13 @@ body {
     text-decoration: none;
     color: white;
     background-color: #1F2628;
+    
     /* Menu button color */
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 15px;
+    font-size: 20px;
     /* border-radius: 5px; */
 }
 
