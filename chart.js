@@ -3,7 +3,16 @@
 
 // Simulated sleep data
 // 0 = Awake, 1 = Light Sleep, 2 = Deep Sleep, 3 = REM Sleep
-const sleepData = [0, 1, 1, 2, 2, 2, 3, 1, 1, 0, 1, 2, 2, 3, 1, 1, 0, 1, 2, 2, 2, 3, 1, 0, 1, 2, 2, 3, 1, 0, 1, 1, 2, 2, 3, 1, 0];
+//const sleepData = [0, 1, 1, 2, 2, 2, 3, 1, 1, 0, 1, 2, 2, 3, 1, 1, 0, 1, 2, 2, 2, 3, 1, 0, 1, 2, 2, 3, 1, 0, 1, 1, 2, 2, 3, 1, 0];
+const sleepData = [
+    0, 1, 2, 3, 2, 1, 0, // Sleep onset
+    1, 2, 3, 2, 1,        // First cycle
+    1, 1, 2, 2, 3,        // Second cycle
+    1, 2, 3, 2, 1,        // Third cycle
+    1, 2, 3, 2, 1,        // Fourth cycle
+    1, 2, 2, 3, 1,        // Fifth cycle
+    1, 2, 3, 1, 0         // Sixth cycle and wake up
+];
 
 const labels = Array.from({ length: sleepData.length }, (_, i) => `T${i}`);
 
