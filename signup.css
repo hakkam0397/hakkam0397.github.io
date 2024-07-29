@@ -7,6 +7,7 @@ html, body {
     padding: 0;
 }
 
+
 body {
     max-width: 100%;
     margin: 0 auto;
@@ -14,15 +15,19 @@ body {
     background: linear-gradient(#293339, #0E1313);
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     display: flex;
+    align-items: center; /* Center content vertically */
     flex-direction: column;
 }
 /* Body */
 
-/* Adding margin on the left side */
+/* Page Wrapper */
 .page-wrapper {
-    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    width: 100%; /* Ensure full width */
 }
-/* Adding margin on the left side */
 
 img {
     max-width: 100%;
