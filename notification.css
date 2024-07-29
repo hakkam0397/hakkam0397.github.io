@@ -14,6 +14,11 @@ h1 {
   margin-bottom: 16px;
 }
 
+#notiHeading{
+  align-self: center;
+  padding: 20px 0px;
+}
+
 .notification {
   display: flex;
   justify-content: space-between;
@@ -37,6 +42,14 @@ h1 {
   font-size: 18px;
   color: #0078d4;
   cursor: pointer;
+}
+.page-wrapper {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0 20px;
 }
 
 .back-btn:hover {
@@ -80,6 +93,38 @@ h1 {
   text-decoration: none;
   transition: background-color 0.3s;
 }
+.button-with-image {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  /* Remove borders */
+  color: white;
+  /* White text */
+  padding: 10px 10px;
+  /*Some padding*/
+  text-align: center;
+  /* Center the text (if there is any) */
+  text-decoration: none;
+  /* Remove underline */
+  display: inline-block;
+  /* Get it to sit inline with text */
+  font-size: 16px;
+  /* Increase font size */
+  margin: 4px 2px;
+  /* Some margin */
+  cursor: pointer;
+  /* Pointer/hand icon */
+  border-radius: 20px;
+  /* Rounded corners */
+  height: auto;
+  width: 50px;
+}
+
+/* .button-with-image img {
+  margin-right: 10px;
+} */
+
 
 .button:hover {
   background-color: #3BB85E;
@@ -159,7 +204,7 @@ h1 {
     padding: 8px; 
   }
 
-  .vertical.menu {
+  /* .vertical.menu {
     background-color: #1F2628;
   }
   
@@ -170,5 +215,5 @@ h1 {
   
   .vertical.menu a:hover {
     background-color: #2A3438;
-  }
+  } */
 }

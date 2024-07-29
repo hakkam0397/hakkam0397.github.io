@@ -47,20 +47,20 @@
     </div>
   </div>
   <!-- Navigation Bar-->
-
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x">
-      <div class="cell">
-        <h1>Notifications</h1>
-        <div id="notifications"></div>
-        <button class="back-btn" onclick="goBack()">← Back</button>
+  <div class="page-wrapper">
+    <div class="grid-x grid-margin-x">
+      <div class="cell small-2">
+          <!-- <button class="button" id="backNotification" width="50" height="20">Back</button> -->
+          <button class="button-with-image" id="backNotification">
+            <img src="Resources/Images/backArrow2x.png" alt="Back Arrow Image">
+        </button>
+      </div>
+      <div class="cell small-7 small-offset-2">
+          <h2 id="notiHeading">Notifications</h2>
       </div>
     </div>
+    <div id="notifications"></div>
   </div>
-  </div>
-  </div>
-  </div>
-
   <!-- Foundation JavaScript -->
   <script src="js/vendor/jquery.js"></script>
   <script src="js/vendor/what-input.js"></script>
@@ -69,7 +69,6 @@
 
   <!-- Custom JavaScript -->
   <script src="notification.js"></script>
-  </div>
 </body>
 
 </html>
