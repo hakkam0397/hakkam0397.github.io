@@ -180,12 +180,13 @@ body {
     /* Pointer/hand icon */
     border-radius: 20px;
     /* Rounded corners */
+    height: auto;
+    width: 40px;
 }
 
 .button-with-image img {
     margin-right: 10px;
-    /* Space between image and text */
-}
+} 
 
 .button:hover {
     background-color: #293339;
@@ -451,4 +452,23 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: italic;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .button-with-image img {
+        width: 80px; /* Adjust size for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .button-with-image img {
+        width: 60px; /* Adjust size for small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .button-with-image img {
+        width: 40px; /* Adjust size for extra small screens */
+    }
 }
