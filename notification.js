@@ -1,5 +1,3 @@
-/* Author: Samruddhi Deolekar */
-
 document.addEventListener("DOMContentLoaded", function() {
     const notifications = [
       {
@@ -7,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         content: "Hello Dhruv, yesterday you went to bed late. A short nap today will do you good!",
         date: "Today",
         button: {
-          text: "Go to QuickSnoozz",
+          text: "Set a QuickSnoozz",
           link: "#"
         }
       },
@@ -56,13 +54,22 @@ document.addEventListener("DOMContentLoaded", function() {
       notificationElement.className = 'notification';
   
       notificationElement.innerHTML = `
-        <h5>${notification.title}</h5>
-        <p>${notification.content}</p>
-        <small>${notification.date}</small>
+        <div class="notification-content">
+          <h5>${notification.title}</h5>
+          <p>${notification.content}</p>
+          <small>${notification.date}</small>
+        </div>
         <a href="${notification.button.link}" class="button">${notification.button.text}</a>
+        <button class="close-btn">&times;</button>
       `;
   
       notificationsContainer.appendChild(notificationElement);
+  
+      // Add event listener to the close button
+      const closeButton = notificationElement.querySelector('.close-btn');
+      closeButton.addEventListener('click', () => {
+        notificationElement.style.display = 'none';
+      });
     });
   });
   
