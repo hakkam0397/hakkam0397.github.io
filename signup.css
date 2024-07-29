@@ -1,11 +1,12 @@
 /* Author: Dhruv Mehta */
 
 /* Body */
-html, body {
+/* html,
+body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-}
+} */
 
 
 body {
@@ -14,20 +15,31 @@ body {
     color: white;
     background: linear-gradient(#293339, #0E1313);
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    display: flex;
-    align-items: center; /* Center content vertically */
-    flex-direction: column;
+    /* display: flex;
+    align-items: center;
+    /* Center content vertically */
+    /* flex-direction: column; */ 
 }
+
 /* Body */
 
-/* Page Wrapper */
+.page-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 20px;
+}
+
+/* Page Wrapper 
 .page-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content horizontally */
-    justify-content: center; /* Center content vertically */
-    width: 100%; /* Ensure full width */
-}
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}*/
 
 img {
     max-width: 100%;
@@ -35,8 +47,10 @@ img {
     width: auto;
     max-height: 340px;
     display: block;
-    margin: 0; /* Remove any margin */
-    padding: 0; /* Remove any padding */
+    margin: 0;
+    /* Remove any margin */
+    padding: 0;
+    /* Remove any padding */
 }
 
 /* Highlight */
@@ -44,6 +58,7 @@ img {
     color: #22104b;
     background: white;
 }
+
 /* Highlight */
 
 /* Headings */
@@ -63,12 +78,28 @@ h2 {
     padding: 20px 20px 20px 20px;
 }
 
+.card {
+    border-radius: 8px;
+    border-color: #1F2628;
+    background-color: #1F2628;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid #ccc; */
+    color: white;
+    /* margin: 0px 0px 0px 0px; */
+    float: none;
+    display: flex;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+
 h3 {
     font-size: 14px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     padding: 20px 20px 20px 20px;
 }
+
 /* Headings */
 
 p {
@@ -140,6 +171,7 @@ ul.horizontal.menu li:first-child:hover a {
     color: white;
     background-color: white;
 }
+
 /* Navigation */
 
 /* Primary Button */
@@ -166,6 +198,7 @@ ul.horizontal.menu li:first-child:hover a {
     background-color: white;
     color: #22104b;
 }
+
 /* Primary Button */
 
 .text-center {
@@ -180,6 +213,7 @@ a {
 p {
     padding-top: 8px;
 }
+
 /* Top Padding */
 
 /* Outline Button */
@@ -196,6 +230,7 @@ p {
     border-color: transparent;
     color: #222222;
 }
+
 /* Outline Button */
 
 .frame {

@@ -54,6 +54,22 @@ body {
     padding: 5px;
     font-size: 12px;
 }
+.button-with-image {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    /* Remove borders */
+    padding: 10px 10px;
+    /*Some padding*/
+    text-align: center;
+    /* Center the text (if there is any) */
+    text-decoration: none;
+    /* Remove underline */
+    display: inline-block;
+    /* Get it to sit inline with text */
+   
+}
 
 .form-group {
     margin-bottom: 20px;
